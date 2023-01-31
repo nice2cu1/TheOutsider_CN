@@ -1,0 +1,98 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Friend：这是你的最新大作吗？真漂亮！这是 <![CDATA[<color=lightblue>收集者</color>]]>，对吧？</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<Text>曼陀罗：没错，确实是！我希望你能认出它来。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<Text>Friend：你怎么知道的？真是稀奇了！</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<Text>曼陀罗：哦，这可是个大星际新闻。大家对荆棘星球（比如这个）某种程度上有所了解，但是这一个是个神秘的威胁，其规模之大，许多人都想知道它的成因以防止未来可能发生的悲剧。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<Text>Friend：我明白了。那么<![CDATA[<color=lightblue>收集者</color>]]>的来源或形成方式发现了吗？</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<Text>曼陀罗：恐怕，就我所知没有。但是...我想问你：从你的角度来说，是什么样的？<![CDATA[<color=lightblue>收集者</color>]]>是什么时候抵达的？</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<Text>Friend：我当时是个小孩。我注意到一种奇怪的氛围在长老们的脸上蔓延。就好像他们知道了什么事儿，想瞒着我和其他人。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>8</ID>
+		<Text>曼陀罗：我想，有些事情永远都不会改变。哦，对不起，请继续。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>9</ID>
+		<Text>Friend：哈哈哈。所以我其他的朋友让他父母做出了解释：星系的那一边有一颗行星，一颗很坏的行星。</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>10</ID>
+		<Text>Friend：它开始蒸发并且...朝我们移动，移动过程中向星系间放出了一种有毒的物质（类似一种毒气！）。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>11</ID>
+		<Text>Friend：当时，我的种族还未能星际航行（好吧，这是我瞎猜的，原文为my species was pre-interstellar，意为 前星际的物种？），无法对抗这种威胁，发出了求救信号，希望外面有人能帮忙！</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>12</ID>
+		<Text>Friend：但是那颗行星更加靠近了！这种威胁之下，我们和星系中的所有生命都要遭到毁灭。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>13</ID>
+		<Text>曼陀罗：啊，然后，他们的求救信号被(除了)一艘游荡的挪麦飞船听到了，对吗？</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>14</ID>
+		<Text>Friend：什么？我不知道这回事！</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>15</ID>
+		<Text>曼陀罗：哈，这很可能是因为，与<![CDATA[<i>]]>我的家族不同<![CDATA[</i>]]>，这个家族事实上先发出了消息邀请其他人帮忙，然后才和他们一起跃迁。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>16</ID>
+		<Text>Friend：朋友：我明白了。无论如何，我们到达安全地带后，发现这种物质遇热膨胀，但是寒冷条件下会紧密压缩，并且能被水有效地中和。</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>17</ID>
+		<Text>Friend：然后，我们等待和观察了几个星际物种，共同努力，通过将奇怪的物质收集到不同的水世界和彗星中，友好地遏制了<![CDATA[<color=lightblue>收集者</color>]]>。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>18</ID>
+		<Text>Friend：然后所有人，包括我们，各回各家。不久后眼就开始发出信号，我想知道它是不是看到了——</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_DRIFTING_DEATH_X1</FactID>
+			<Condition>17</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

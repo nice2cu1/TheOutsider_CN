@@ -1,0 +1,12 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text><![CDATA[<color=orange>探测到飞船：</color>]]>\\n挪麦航天飞机 <![CDATA[<color=red>(Destroyed)</color>]]>\\n朋友的飞船 <![CDATA[<color=red>(Destroyed)</color>]]></Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<Text><![CDATA[<color=orange>飞船总数：</color>]]> 2\\n大门已解锁。</Text>
+	</TextBlock>
+
+</NomaiObject>

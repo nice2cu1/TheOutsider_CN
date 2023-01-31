@@ -1,0 +1,49 @@
+<!--
+1 - 2 - 3 - 4
+|
+5 - 6 - 7
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>曼陀罗：啊哈！看来朋友也很喜欢一些象征意义！</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>曼陀罗：朋友问我为什么要把想法写下来留在这个地方，我告诉他们这很挪麦。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>曼陀罗：挪麦人是 <![CDATA[<i>]]>(或者应该是)<![CDATA[</i>]]> 游牧族群，所以我想这是告诉其他挪麦家族的一种方式：“哈哈！俺们先来的！”</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>曼陀罗：或者警示危险，或这告诉他他们有很酷的东西之类...</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>1</ParentID>
+		<Text>曼陀罗：好了，是时候摧毁另一首航天飞机了！这机器我只用过一次，我记得上次弄坏了他们的航天飞机还触发了飞船的警报器。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>曼陀罗：朋友有点好奇我为什么不在用一次那个机器，但我向他们保证我知道我在做什么。我们等了又等，然后，砰！他们的航天飞机也爆炸了，然后他们就明白了。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>曼陀罗：朋友过去时不时要回到族人中去。或许在这里建了房子就能让他们不必再回去了？无论如何，我很高兴你在这里，朋友。</Text>
+	</TextBlock>
+	
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_SHUTTLE_CRUSHER_X2</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

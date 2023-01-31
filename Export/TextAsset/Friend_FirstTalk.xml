@@ -1,0 +1,30 @@
+<DialogueTree>
+	<NameField>Friend</NameField>
+	
+	<DialogueNode>
+		<Name>Friend1_</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>...</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>你是...?</Text>
+				<DialogueTarget>Friend2_</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>这里是哪...?</Text>
+				<DialogueTarget>Friend2_</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Friend2_</Name>
+		<SetPersistentCondition>MET_FRIEND</SetPersistentCondition>
+		<Dialogue>
+			<Page>...</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

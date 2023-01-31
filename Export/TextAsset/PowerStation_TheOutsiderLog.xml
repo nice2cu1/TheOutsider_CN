@@ -1,0 +1,32 @@
+<AstroObjectEntry>
+	<ID>POWER_STATION</ID>
+
+	<Entry>
+		<ID>PS_POWER_STATION</ID>
+		<Name>_荆棘动力站</Name>
+		<RumorFact>
+			<ID>PS_POWER_STATION_R1</ID>
+			<RumorName>种子的另一边</RumorName>
+			<Text>我发射侦察兵穿过了黑棘种子，它从另外的地方出来了。</Text>
+		</RumorFact>
+
+		<ExploreFact>
+			<ID>PS_POWER_STATION_X1</ID>
+			<Text>发电站使用黑棘种子将所有位置连接到电源。</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>PS_POWER_STATION_X2</ID>
+			<Text>根据一台挪麦电脑的信息，重力稳定系统在最近的一次掠过黑棘星的日冕物质抛射中受损。</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>PS_POWER_STATION_X3</ID>
+			<Text>我用开关关闭了其中一个地点的电力。</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>PS_POWER_STATION_X4</ID>
+			<Text>我发射侦察兵穿过了黑棘种子，它从另外的地方出来了。</Text>
+		</ExploreFact>
+
+	</Entry>
+
+</AstroObjectEntry>

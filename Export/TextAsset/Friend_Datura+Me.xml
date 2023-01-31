@@ -1,0 +1,49 @@
+<!--
+1 - 2 - 3 - 4
+|
+5 - 6
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Friend：你探索过我们在黑棘星表面的建筑了吗？</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>Friend：你找到曼陀罗了吗？或者...他的尸体？他不在黑棘星内部探索的时候，一般会在他的研究塔或者天文台（我帮助建造的）里。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>Friend：哦，天文是有安全措施的，我记得！一个过于好奇的年轻挪麦人会去拜访他。（我想知道为什么所莱内姆从来没有来过？）</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>Friend：不管怎么说，他用我的量子碎片礼物影响了天文台的大门，所以要进去，你就不能盯着大门看。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>1</ParentID>
+		<Text>Friend：这颗行星过去是完整的！你能想象吗？在飞船上，它裂开以后一段时间我们才发现。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>Friend：曼陀罗假设，眼的信号在到达挪麦人之前在黑棘星内部反射过——不然他们怎么会跃迁到那儿？</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>IP_DREAM_HOME_X2</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

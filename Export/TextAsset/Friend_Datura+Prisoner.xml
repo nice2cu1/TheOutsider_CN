@@ -1,0 +1,38 @@
+<!--
+1 - 2 - 3 - 4
+	|
+	5
+unused: ...My own curiosity for the Eye has been burnt out.
+Friend：Every decision is made in darkness. Only by making a choice can we learn whether it was right or not.
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Friend：曼陀罗了解到幽禁者见到眼摧毁宇宙的影像后还是放出了眼的信号，就对他印象不是太好。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>Friend：他们之间的一个共同点（我希望他们没有的一点）就是他们都因为眼而变得愤愤不平。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>Friend：我们的幽禁者以毫不动摇的自信相信眼是纯粹的善。看到其他人将它藏起来，他认为他们懦弱、邪恶，并且...愚蠢。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>Friend：他和我告诉他们我们并不害怕眼...但是我看说别人胆小容易，说他们不能接受现实也容易，尽管你自己也还一无所知。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>2</ParentID>
+		<Text>Friend：曼陀罗不太关心眼的事。与他的族人分隔一段时间助长了他对他们的愤怒——他跟一个挪麦人大吵了一架...亚罗，我记得是。</Text>
+	</TextBlock> 
+
+</NomaiObject>

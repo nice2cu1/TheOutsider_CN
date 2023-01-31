@@ -1,0 +1,28 @@
+<!--
+1 - 2
+|
+3 - 4
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>曼陀罗：用喷气背包环游这颗星球是相当有趣的！不过，我得在我的燃料上多留几个心眼。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>曼陀罗：昨晚，我梦到了连接所有冰岛的桥梁... 它们在燃烧，我也在燃烧。但如果在这多待一会，一座不燃烧的桥就能派上用场。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<Text>曼陀罗：啊，这个星球让我想起曾经和费利克斯一起去过的一颗星球。阵风花园... 哦！还有宇宙湾！还有...！那...那真是一段快意时光！</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>曼陀罗：但我现在身处黑棘星！孤身一人... 呃... 集中注意力，我在执行任务！</Text>
+	</TextBlock>
+	
+</NomaiObject>

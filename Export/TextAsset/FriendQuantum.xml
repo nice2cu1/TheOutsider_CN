@@ -1,0 +1,16 @@
+<!--
+1 - 2
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Friend：我在冰中找到了量子岩石!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>Friend：这是给你的。</Text>
+	</TextBlock>
+
+</NomaiObject>

@@ -1,0 +1,52 @@
+<!--
+	1
+  / | \
+2	3	4 - 5
+
+(Were the Eye Shrines necessary?)
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>曼陀罗：着陆！黑棘星，有点小酷。有点...诡异。</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>曼陀罗：呃，亚罗，我知道你的意图是好的，但也许现在是时候放弃对眼的痴迷了。你知道的，每个人都在谈论“放手”的事情。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<Text>曼陀罗：我不知道我要用航天飞机做什么。其实，这里很不错！我想，我现在会在这里扎营。In this air pocket, anyway. Weird trees.（恕我无法正确翻译，所以留下了这一小节原文，哈哈！）</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>1</ParentID>
+		<Text>曼陀罗：嗯，这里没有能吃的东西。我带了一些补给，冰可以用来做水，但这些荆棘（我想）只能作为建筑材料...</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>曼陀罗：嗯... 这个星球上...没有...鮟鱇鱼... 对吧？</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_INITIAL_CAMP_X1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>DB_SHUTTLE_CRUSHER_R1</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>DB_HUNTING_BLIND_R1</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

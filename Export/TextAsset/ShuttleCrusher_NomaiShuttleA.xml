@@ -1,0 +1,20 @@
+<!--
+1 - 2 - 3
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>曼陀罗：好吧，航天飞机就停在那，没法只送它回去而不送我自己回去。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>曼陀罗：所以... 我要把它砸成碎片！象征性的...</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>曼陀罗：你知道的，在我做完我打算做的事情之前，我是不会回去的！</Text>
+	</TextBlock>
+</NomaiObject>

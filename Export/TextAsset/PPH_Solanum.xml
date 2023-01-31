@@ -1,0 +1,144 @@
+<!--
+1 - 2 - 3 - 4 - 5 - ...
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB/>
+		<Text>所莱内姆：老爸？你去哪里了？你好久都没来电！我们担心你出事了。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>曼陀罗：对不起，小所，我...经历了一些事。所以...你量子朝圣的日子就要到了，对吧？</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationB/>
+		<Text>所莱内姆：...对...</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>曼陀罗：...你激动吗?</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationB/>
+		<Text>所莱内姆：呃...就是...你为什么还留在那？你已经找到飞船了，那是你的任务对吧？所以为什么还不回来？你是不是...你是不是...讨厌我？</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>曼陀罗：...亲爱的，当然不会。不是因为你...是别的挪麦人。我们相处得不太好而且我怕他们...怕我回去时他们谈论我或会对我说的话...</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<LocationB/>
+		<Text>所莱内姆：他们又不是怪兽，老爸，你确定你害怕的是别的挪麦人？...还是担心我、费利克斯和亚罗？</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>曼陀罗：...</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<ParentID>8</ParentID>
+		<LocationB/>
+		<Text>所莱内姆：因为...你与别的挪麦人之间的共同点比你想得要多。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>10</ID>
+		<ParentID>9</ParentID>
+		<Text>曼陀罗：...有吗?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>11</ID>
+		<ParentID>10</ParentID>
+		<LocationB/>
+		<Text>所莱内姆：许多挪麦人对眼的兴趣已经随着时间消退了，大部分人都希望离开，就像你一样。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>12</ID>
+		<ParentID>11</ParentID>
+		<Text>曼陀罗：...等等，真的?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>13</ID>
+		<ParentID>12</ParentID>
+		<LocationB/>
+		<Text>所莱内姆：真的！所以老爸，拜托，离开那个地方吧。不久后会有一场投票，决定我们是继续留下追寻眼。还是想办法离开这个星系。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>14</ID>
+		<ParentID>13</ParentID>
+		<LocationB/>
+		<Text>所莱内姆：<![CDATA[<color=orange>太阳站</color>]]>和时间循环计划分割了我们的家族，它们由于失败已经失去了动力。假设：我们不久就要离开这个星系了。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>15</ID>
+		<ParentID>14</ParentID>
+		<Text>曼陀罗：哇，所以什么时候？我还有一件小事需要了结，完事就会回去。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>16</ID>
+		<ParentID>15</ParentID>
+		<LocationB/>
+		<Text>所莱内姆：啊，事实上就在我的量子卫星朝圣之后不久。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>17</ID>
+		<ParentID>16</ParentID>
+		<Text>曼陀罗：我明白了。好吧，你回来的时候我会在<![CDATA[<color=lightblue>重力炮</color>]]>那里等你，那样，你可以给我讲讲你的量子月球之旅。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>18</ID>
+		<ParentID>17</ParentID>
+		<LocationB/>
+		<Text>所莱内姆：呃...听起来不错！不过，我还以为你不会在意量子卫星。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>19</ID>
+		<ParentID>18</ParentID>
+		<Text>曼陀罗：呃...我的问题是关于眼的。量子卫星在我看来还不错。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>20</ID>
+		<ParentID>19</ParentID>
+		<LocationB/>
+		<Text>所莱内姆：我知道了，我不会放过任何细节的！好吧，到时候见，<![CDATA[<color=lightblue>爹-图拉！</color>]]>代我向你的幻想朋友问好！</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>21</ID>
+		<ParentID>20</ParentID>
+		<Text>曼陀罗：回见——朋友是他的名字，他不是想象的！...到时候见，亲爱的，爱你！</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>22</ID>
+		<ParentID>21</ParentID>
+		<LocationB/>
+		<Text>所莱内姆：我也爱你，老爸。</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_PROJECTION_POOL_HOUSE_X4</FactID>
+			<Condition>13</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

@@ -1,0 +1,127 @@
+<!--
+unused (funny but slightly too harsh): 曼陀罗：Oh no, those poor dead people’s feelings!
+
+		<Text>亚罗： ...What about curiosity?</Text>
+		<Text>曼陀罗：Curiosity? Is that really what drives you? Because from my perspective, you’ve just been deluded into idolizing and anthropomorphising the Eye, thanks to these Eye shrines.</Text>
+
+If you ask me, a bigger insult would be if we all died here, too, attempting to find it. 
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>曼陀罗：记录下此内容。假设：我之后还需要听这个。所以：你仍然在寻找眼？</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<Text>亚罗：别这样...我不想吵架...</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<Text>曼陀罗：嗨，别走！我们已经被困在这里这么久了，费利克斯和我现在也有了一个孩子，这不是给孩子成长的地方。我们得努力改变现状，离开这里！</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<Text>亚罗：我们会的... 一但找到眼我们就会建造飞船离开... 只是要等一会。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<Text>曼陀罗：但无论如何，我们去眼需要一艘飞船！所以为什么不先建飞船在考虑别的事情呢？这样我们就可以和家族一起回到这里寻找眼。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<Text>曼陀罗：何况，不被困在这里也很好！挪麦人应该探索宇宙！那...几乎是我们全部的使命！</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<Text>亚罗： 我知道！我知道... 只是...寻找眼对我们来说很重要！来到这里已经有很多挪麦人失去了生命，我们必须找到眼，这样他们才没有...白白牺牲。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>8</ID>
+		<Text>曼陀罗：好吧...我明白了... 那么，我会自己找到离开的办法。我会...找到旧飞船。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>9</ID>
+		<Text>亚罗： 你打算怎么做？飞船...在黑棘星内部。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>10</ID>
+		<Text>曼陀罗：...我会前往黑棘星内部。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>11</ID>
+		<Text>费利克斯：什么?</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>12</ID>
+		<Text>亚罗： 嗯？哇哦？呃，费利克斯!你就是在飞船上发现了眼信号的人，对吧？哇哦！很荣幸见到你！我是——</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>13</ID>
+		<Text>费利克斯：亚罗，是吗？克莱瑞向我介绍了你。你介意在这待一会吗？我得和我的伴侣谈谈。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>14</ID>
+		<Text>亚罗： 哦...呃... 好吧。那么，有事的话记得叫我。（克莱瑞说过我...?）</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>15</ID>
+		<Text>费利克斯：谢谢。 曼陀罗... 我们分开很久了...</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>16</ID>
+		<Text>曼陀罗：我知道... 这也让我很伤心，但如果没人去找离开的办法... 那...你会和我一起去寻找吗？</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>17</ID>
+		<Text>费利克斯：我...不能。搜寻计划需要我，普利维特现在是我的学徒，我是新校区的老师... 而且我们的女儿Solanum怎么办？你不能指望我一个人做完这全部的事情。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>18</ID>
+		<Text>曼陀罗：你可以的。我相信你！而且... 我也需要你相信我。求你了。我...我会制作一个投影池！就好像我还在这里一样！</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>19</ID>
+		<Text>费利克斯：...（不，这是不可能的。）</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>20</ID>
+		<Text>曼陀罗：会没事的。来吧...这是我的计划：我会在这个星球上建立一个基地，然后去寻找飞船，一旦找到它，我就会回来。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>21</ID>
+		<Text>费利克斯：...你保证你会回来？</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>22</ID>
+		<Text>曼陀罗：当然。我保证。</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_BRAMBLE_VILLAGE_X2</FactID>
+			<Condition>22</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

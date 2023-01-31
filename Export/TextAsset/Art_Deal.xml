@@ -1,0 +1,47 @@
+<!--
+1 - 2 - 3 - 4 - 5 - 6
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>曼陀罗：我们要做的事...进展非常顺利，我觉得！</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>曼陀罗：我教会了朋友挪麦语言，这样我们就能交流了。他教了我艺术，这对他们物种来说非常重要。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>曼陀罗：虽然就我的画作来说，要学的还有很多！</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>Friend：说话对我来说相同难，不止你要学习。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>曼陀罗：是一个人有很多要学？还是另一个人有很多要教？</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>Friend：WTF？？？\\n（原为What？被绕晕？我觉得！所以：改成了WTF。）</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_BRAMBLE_VILLAGE_X1</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

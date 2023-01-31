@@ -1,0 +1,17 @@
+<!--
+1
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>投影池室</Text>
+	</TextBlock>
+	
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_PROJECTION_POOL_HOUSE_R1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

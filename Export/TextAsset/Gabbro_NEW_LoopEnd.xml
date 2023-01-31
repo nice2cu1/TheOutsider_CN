@@ -1,0 +1,186 @@
+<DialogueTree>
+	<NameField>Gabbro</NameField>
+	
+	<DialogueNode>
+		<Name>GabbroMain</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Randomize/>
+		<Dialogue>
+			<Page>_Hey, it's getting near the end of the loop, huh?</Page>
+		</Dialogue>
+		<Dialogue>
+			<Page>_If it isn’t my time buddy! Come lower your eyelids to die with the sun with me.</Page>
+		</Dialogue>
+		<Dialogue>
+			<Page>_Heyo, time buddy. It’s a good thing I never get bored of dying by supernova, huh?</Page>
+		</Dialogue>
+		<Dialogue>
+			<Page>_A few loops ago, one of these structures falling from the sky fell on my island. Dying like that was kind of unpleasant.</Page>
+		</Dialogue>
+		<RevealFacts><FactID>GD_GABBRO_ISLAND_X0</FactID></RevealFacts>
+		<DialogueTarget>GabbroMenu</DialogueTarget>
+		<SetCondition>SaidHiToGabbro</SetCondition>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>GabbroMain_Secondary</Name>
+		<EntryCondition>SaidHiToGabbro</EntryCondition>
+		<Dialogue>
+			<Page>Hello again. ...Again.</Page>
+		</Dialogue>
+		<DialogueTarget>GabbroMenu</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>GabbroMenu</Name>
+		<Dialogue>
+			<Page>What’s up?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>_GABBRO I JUST GOT PULLED OFF OF DARK BRAMBLE.</Text>
+				<DialogueTarget>PulledOffDarkBramble_</DialogueTarget>
+			</DialogueOption>
+
+			<DialogueOption>
+				<Text>I found something!</Text>
+				<DialogueTarget>FoundSomethingMenu</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>How do you stay so calm in the face of repeated impending death?</Text>
+				<DialogueTarget>HowDoYouStayCalm</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What are you doing out here?</Text>
+				<DialogueTarget>WhatAreYouDoing_merge</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Where should I explore on Giant’s Deep?</Text>
+				<DialogueTarget>WhereToExplore_merge</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What’s up with this planet?</Text>
+				<DialogueTarget>ThisPlanet_merge</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Where’s your ship?</Text>
+				<DialogueTarget>GabbrosShip</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>See you later.</Text>
+				<DialogueTarget>Goodbye</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+<!--
+	NEW
+-->
+
+	<DialogueNode>
+		<Name>PulledOffDarkBramble_</Name>
+		<Dialogue>
+			<Page>Hmm? Oh, yeah. Giant's Deep sure earns it's name, huh?</Page>
+			<Page>Anyway, here comes the sun.</Page>
+			<Page>See you next loop, time buddy.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+<!--
+	OLD MODIFIED
+-->
+
+	<DialogueNode>
+		<Name>HowDoYouStayCalm</Name>
+		<Dialogue>
+			<Page>_The sun is exploding right now, so I could ask the same to you... but seriously, I meditate.</Page>
+		</Dialogue>
+		<DialogueTarget>MeditateMenu</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>MeditateMenu</Name>
+		<Dialogue>
+			<Page>_Want me to teach you? It'll be the next loop before you know it. ...Either way.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Sure, why not.</Text>
+				<DialogueTarget>YesMeditate</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Nah, I'm good.</Text>
+				<DialogueTarget>NoMeditate</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>YesMeditate</Name>
+		<Dialogue>
+			<Page>Ok, close your eyes...</Page>
+		</Dialogue>
+		<SetCondition>BeginMeditation</SetCondition>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>NoMeditate</Name>
+		<Dialogue>
+			<Page>_Ok. Well, here comes the sun.</Page>
+		</Dialogue>
+		<DialogueTarget>GabbroMenu</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>WhatAreYouDoing_merge</Name>
+		<Dialogue>
+			<Page>_Uh, maybe I'll tell you next loop? Suns going.</Page>
+		</Dialogue>
+		<DialogueTarget>GabbroMenu</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>WhereToExplore_merge</Name>
+		<Dialogue>
+			<Page>_Here’s something you might like — the sun is about to blow up. I'll talk to you next loop, is that alright?</Page>
+		</Dialogue>
+		<DialogueTarget>GabbroMenu</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>ThisPlanet_merge</Name>
+		<Dialogue>
+			<Page>Haha, I know, right?</Page>
+			<Page>_...Oh, you meant, like, tell you more about it? I gotcha. Well, I'll talk next loop. Sound good?</Page>
+		</Dialogue>
+		<DialogueTarget>GabbroMenu</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>GabbrosShip</Name>
+		<Dialogue>
+			<Page>That’s a good question.</Page>
+			<Page>_Well, I'll worry about it another loop.</Page>
+		</Dialogue>
+		<SetPersistentCondition>AskedGabbroForHisShip</SetPersistentCondition>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Goodbye</Name>
+		<Dialogue>
+			<Page>Cool, cool. Take it easy out there.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+<!--
+	THIS IS THE CONDITIONAL DISCOVERY MENU
+-->
+
+	<DialogueNode>
+		<Name>FoundSomethingMenu</Name>
+		<Dialogue>
+			<Page>_Nice, nice. How about you tell me all about it next loop? No need to rush.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

@@ -1,0 +1,32 @@
+<NomaiObject>
+
+	<TextBlock>
+		<ID>1</ID>
+		<Text>曼陀罗：...所有这些痛苦.。在眼的上方。为了一件甚至不在乎的事情。真是浪费...</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<Text>曼陀罗：我想知道费利克斯听到的信号是不是还在向外传播。谁知道呢。也许以后，另一个物种会听到，过来，然后...</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<Text>曼陀罗：好吧，我只能希望他们在接近之眼之前，确切地了解它是什么。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<Text>曼陀罗：我希望他们在投入之前不假思索地问自己一个简单的问题：这值得吗？</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<Text>曼陀罗：创造一个新宇宙的潜在好处值得摧毁当前的宇宙吗？</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<Text>曼陀罗：嗯，我想最好的做法是等到当前的宇宙接近尽头，因为在这一点上，不再有太多的不利因素。</Text>
+	</TextBlock>
+</NomaiObject>

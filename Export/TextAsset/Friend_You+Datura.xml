@@ -1,0 +1,36 @@
+<!--
+1 - 2 - 3
+	| \
+	4  5
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Friend：……达图拉，我们的相遇是由于相似也相反的原因。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>Friend：我的朋友被囚禁后，我内心非常煎熬……所以我离开了。幸运的是，达图拉相当好客！</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>Friend：有时候，我真希望我们已经逃走了。我们一起进入银河系！但是...这只是一个幻想。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>2</ParentID>
+		<Text>Friend：令人意外的是，我们对于眼的对立观点并没有在我们之间引起争论。（假设：曼陀罗真正的争论点在别的事上？）</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>2</ParentID>
+		<Text>Friend：不过，他听到我们的飞船不能星际间旅行的时候还挺失望的。（不是他希望的逃生舱！）</Text>
+	</TextBlock>
+
+</NomaiObject>

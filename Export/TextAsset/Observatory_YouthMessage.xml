@@ -1,0 +1,27 @@
+<!--
+1 - 2 - 3
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>曼陀罗： Lami ！如果你在读这句话，那我猜你又和你的小伙伴来四处打探了吧。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>曼陀罗：不好意思，但你们真不走运，现在我有两道安全措施阻止你们这些小鬼进去！</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>曼陀罗：我知道我们鼓励好奇心，但这种行为是不能接受的！所以...啊哈，我一直都想说这句话：离开我的草坪！</Text>
+	</TextBlock>
+	
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_NORTHERN_OBSERVATORY_R1</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

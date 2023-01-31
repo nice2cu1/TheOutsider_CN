@@ -1,0 +1,128 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>曼陀罗：嘿，小家伙，你很快就会去碎空星上学了！（黑洞上方可没有栏杆） 我想你会很高兴终于摆脱这堆沙子，对吗？</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<Text>所莱内姆：是啊，但我不希望妈妈去做老师！</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<Text>曼陀罗：哈哈哈，有时候我甚至觉得费利克斯是故意的。结论：你还会更难看。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<Text>所莱内姆：不，不，不！哦！我刚想起来要问你一些事... 眼？它是什么？我一直听见有人说它的事。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<Text>曼陀罗：好吧，是时候告诉你了。费利克斯在飞船上探测到一个来自比宇宙还要古老的东西发出的信号，更加诡异的是，在这之后我们再也找不到这个信号了</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<Text>所莱内姆：飞船？这是另一回事！飞船发生了什么？</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<Text>曼陀罗：哦，亲爱的，这... 是个悲伤的故事。改天再说？</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>8</ID>
+		<Text>所莱内姆：哦！但是我很好奇这件事！</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>9</ID>
+		<Text>曼陀罗：很好奇吗？好吧...好吧... 但是我警告你，不要在你妈妈面前提前。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>10</ID>
+		<Text>曼陀罗：那么，我会以我的角度来讲述这件事。我曾经是飞船的船员——一艘具备跃迁能力的月球版大小的飞船。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>11</ID>
+		<Text>曼陀罗：飞船突然跃迁的时候我还在图书馆看书，不过当我们抵达后，周围传来一阵可怕的叫声！我们坠毁了。我试着寻找你的母亲，但我被迫进入的逃生舱。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>12</ID>
+		<Text>曼陀罗：我降落在余烬双星上，费利克斯降落在碎空星。两拨人都需要重建家园</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>13</ID>
+		<Text>曼陀罗：许多年过去了，直到一艘来自碎空星的航天飞机抵达余烬双星，我们才得以重聚。背阴城的人们得知了为什么会坠毁以及关于眼的事。在那之后，失败的寻找眼的探索开始了...</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>14</ID>
+		<Text>所莱内姆：所有人都进入逃生舱了吗？</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>15</ID>
+		<Text>曼陀罗：呃... 不完全是所有人。五个逃生舱中只有三个被发射出去。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>16</ID>
+		<Text>所莱内姆：三个？那第三个逃生舱发生了什么？</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>17</ID>
+		<Text>曼陀罗：第三个逃生舱... 从未离开黑棘星。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>18</ID>
+		<Text>所莱内姆：他们还好吗？</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>19</ID>
+		<Text>曼陀罗：也许吧！我们没能联系上他们，如果他们还在......</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>20</ID>
+		<Text>所莱内姆：哦...</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>21</ID>
+		<Text>曼陀罗：好了，记住我对你的警告。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>22</ID>
+		<Text>费利克斯：你们两个在说什么？</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>23</ID>
+		<Text>所莱内姆：爸爸告诉了我飞船上发生的事</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>24</ID>
+		<Text>曼陀罗：所莱内姆！我从未说过这事！</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_SHUTTLE_CRUSHER_X4</FactID>
+			<Condition>12</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

@@ -1,0 +1,66 @@
+<!--
+1 - 2
+| \
+3	5 - 6
+|	|
+4	7
+
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>曼陀罗：哇！看来我们在这个星系并不孤单！刚才有人来了！</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>曼陀罗：他坐在步道上，我跟他一起坐下，试着安慰他——开心的人可不来黑棘星。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<Text>曼陀罗：我的家族坠落在这儿之前，我曾读到过这个物种。要是我们能理解彼此的语言，我真想从他们的视角听听他们和<![CDATA[<color=lightblue>收集者</color>]]>的相遇</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>曼陀罗：如果这不是敏感话题的话，当然。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>1</ParentID>
+		<Text>曼陀罗：有人陪伴感觉...真好。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>曼陀罗：我不确定我们有多少共同点，但希望我们能成为朋友。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>5</ParentID>
+		<Text>曼陀罗：更新：看来他会停留一段时间，我会在<![CDATA[<color=orange>南极</color>]]>给他建一栋房子。</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_DRIFTING_DEATH_R1</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+
+		<RevealFact>
+			<FactID>DB_STUDY_TOWER_X2</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>DB_BRAMBLE_VILLAGE_R1</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

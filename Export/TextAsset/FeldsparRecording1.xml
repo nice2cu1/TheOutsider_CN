@@ -1,0 +1,18 @@
+
+<DialogueTree>
+	<NameField>RECORDING</NameField>
+	<DialogueNode>
+		<Name>费尔德斯巴的录音_</Name>
+    	<EntryCondition>DEFAULT</EntryCondition>
+    	<Dialogue>
+			<Page>行程4，条目#... 谁在乎呢。 撞车次数：2。无聊的撞车次数：0。</Page>
+			<Page>好吧，黑棘星，我来了！我看到了两艘坠毁的船，但看起来像是故意的？</Page>
+			<Page>一个看起像是挪麦人，另一个毫无头绪。</Page>
+			<Page>我在这些走道上闲逛了一番。相当的宁静，只要无视掉弥漫的黑棘星氛围。</Page>
+			<Page>有一些我不能进入的地方——我有个想法，如果有人才听着篇文章并需要帮助，请来和我聊天。</Page>
+			<Page>...等我回去以后。除非，你跟我一样癫，想到黑棘星里面来找我！</Page>
+			<Page>无论如何，我要进去了！敬冒险！</Page>
+		</Dialogue>
+		<RevealFacts><FactID>DB_INITIAL_CAMP_X2</FactID></RevealFacts>
+	</DialogueNode>
+</DialogueTree>

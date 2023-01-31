@@ -1,0 +1,52 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>曼陀罗：朋友，我回来了——其他人走了！你能听到吗？我在这留段录音给你！</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<Text>曼陀罗：朋友... 我真的很抱歉。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<Text>曼陀罗：...我不该来这，这是你的秘密空间而我本该尊重这一点的... 朋友？你在吗？...至少敲敲门让我知道！</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<Text>曼陀罗：...？没有任何反应... 或许他睡着了。（咻，看看这金属门和笼子，朋友真的很不想我再来这里。）</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<Text>曼陀罗：没法强行进入...除非...哦！愚蠢的金属...我需要...需要炸弹或者什么东西把这扇愚蠢的门炸掉！</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<Text>曼陀罗：（但是我怎么制造一场爆炸呢...？而且...要安全？还有这种事吗?）</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<Text>曼陀罗：呃...我愚蠢的好奇心...真讽刺，不是吗？/Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>8</ID>
+		<Text>曼陀罗：...哎呀！这段不能录下来！</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_SIMULATION_HOUSE_X1</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>DB_SIMULATION_HOUSE_INSIDE_R1</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

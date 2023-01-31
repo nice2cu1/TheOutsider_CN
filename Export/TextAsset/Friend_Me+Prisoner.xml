@@ -1,0 +1,17 @@
+<!--
+1 - 2
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Friend：我觉得我应该更兴奋--你也许能放了我的朋友！</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>Friend：但是，无论如何，我知道他已经离开我们了...</Text>
+	</TextBlock>
+
+</NomaiObject>

@@ -1,0 +1,65 @@
+<!--
+9 - 1 - 2 - ... - 8
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>9</ID>
+		<Text><![CDATA[<color=red>错误：</color>]]>此投影石受损！部分文字已损坏。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>1</ID>
+		<ParentID>9</ParentID>
+		<Text>曼陀罗：你好? 亚罗! #####</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<LocationB/>
+		<Text>亚罗： 哦... #####。假设：我们太阳站的失败#####你在这嘲笑我。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationB/>
+		<Text><![CDATA[<color=brown>斯拜尔</color>]]>: 呃...假设：#####对你们都好，如果你们两个都不再给对方打电话的话。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>曼陀罗：#####... 亚罗, 你还好吗？ 亚罗？ #####等等！</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationB/>
+		<Text><![CDATA[<color=brown>斯拜尔</color>]]>: 哦，回头见，亚罗！#####着急，我们会解决的！我相信我们！...所以，曼陀罗，你打电话#####什么意图？</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>曼陀罗：呃，有#####！而且它#####！</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<LocationB/>
+		<Text><![CDATA[<color=brown>斯拜尔</color>]]>: 哦，你也观测到#####？你和我都有！事实上我们已经##### #####检查#####。#####谢谢你，曼陀罗。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<LocationB/>
+		<Text><![CDATA[<color=brown>斯拜尔</color>]]>: #####会追上亚罗，看看他有没有事。#####！别像新来的一样，就现在！</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_PROJECTION_POOL_HOUSE_X3</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

@@ -1,0 +1,58 @@
+<!--
+1 - 2 - 3 - 4 - 5 - 6 - 7 - 8
+unused: just because some big Eye thing is like ’hey, it’s big bang time.’
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>曼陀罗：Friend 和我一直在讨论眼，试图弄清楚它</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>曼陀罗：所以！它比宇宙还要古老。朋友族中的一人看到的一段景象显示，如果有人与它接触或者怎样，它就会摧毁宇宙。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>Friend：但是如果它摧毁了之前的宇宙，我们就不得不好奇一下现在的宇宙是如何被创造出来的。或许它也创造了这个宇宙。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>曼陀罗：亚罗和其他人认为眼是量子态的，所以，如果这是真的，我想眼处于好与坏的叠加态是合理的，嗯哼？</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>Friend：但...这是不是意味着屏蔽眼信号不是错误的？</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>曼陀罗：嗯。这个问题很难回答。但是你也不想把“宇宙重启按钮”的坐标搞得人尽皆知吧？</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>Friend：嗯，我们也不能因为怕死就把它封锁起来，所以——</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>曼陀罗：我不是怕死——死亡对我来说不过是极致的无趣，而且这个宇宙还没玩完呢。所以此时此刻，让我们不要惧怕活着，朋友。</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_SECRET_ROOM_X2</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

@@ -1,0 +1,27 @@
+<!--
+1 - 2 - 3
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>曼陀罗：再次更新...：我在冰岛上此处想西的地方搭了一个投影池，这样就能跟费利克斯和我的女儿说话了。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>曼陀罗：但却是... 贝尔斯和派伊发来消息，告诉我自我走后<![CDATA[<color=lightblue>重力炮</color>]]>又改进了一些，他们也意识到我的航天飞机困在这里这件事。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>曼陀罗：他们告诉我，他们试图尝试从<![CDATA[<color=lightblue>重力炮</color>]]>召回航天飞机，但是新加的开关由于某种原因不起作用，让我检查一下飞船是否出了什么问题。 ...哈哈哈...呃...哎呀...</Text>
+	</TextBlock>
+	
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_PROJECTION_POOL_HOUSE_R2</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

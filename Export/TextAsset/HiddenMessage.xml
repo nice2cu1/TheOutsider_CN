@@ -1,0 +1,21 @@
+<!--
+1 - 2 - 3
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>PRUNSEL: 你已经找到了。对于有追溯力的探险家来说，请听一听。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>PRUNSEL: 在一颗早期恒星的灵魂中，挥舞着这面旗帜：</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>(Put GUID here like: 5b9d8ccf-4640-4a98-b202-9cccbae0444a)</Text>
+	</TextBlock>
+
+</NomaiObject>

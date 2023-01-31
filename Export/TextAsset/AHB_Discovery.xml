@@ -1,0 +1,51 @@
+<!--
+1 - 2 - 3 - 4 - 5 - 6
+			|
+			7
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>曼陀罗：我去告诉其他人我的发现，但是插上投影石却看到了... 亚罗。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>曼陀罗：所以我告诉了他，他很感兴趣，甚至非常热情。我申明要利用这项知识回到飞船，他出人意料地答应了。这次对话可疑地顺利。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>曼陀罗：不过，之后他跟我说了他和瑞米想出来的什么超新星-时间-旅行-纯扯淡计划需要一个高级跃迁核心。（飞船上有）</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>曼陀罗：对话从这急转直下。争论一阵之后，他结束了通话。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>曼陀罗：更新：亲爱的费利克斯告诉我：梅洛瑞和科利耶斯从余烬双星的化石里也发现了鮟鱇鱼是瞎子那回事。她觉得这个知识能帮到我，哦谢谢你亲爱的。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>曼陀罗：假设：亚罗没有告诉任何人是我最先发现的！芜湖！哈哈哈。(我希望她...没事。我们通话结束时，她似乎很苦恼。)</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>4</ParentID>
+		<Text>曼陀罗：...亚罗，我保证，总有一天我们会有一场像样的对话。或者至少一场中立的对话。</Text>
+	</TextBlock>
+	
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_HUNTING_BLIND_X2B</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

@@ -1,0 +1,53 @@
+<!--
+1 - 2 - 3 - 4 - 5
+		|
+		6
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>曼陀罗：我希望能在这栋建筑里抓到一条鮟鱇鱼。因为我饿了，马上饿疯了。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>曼陀罗：我重新设定了跃迁引擎，用来跃迁 我 自 己！只是以防万一鮟...只是以防万一...</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>曼陀罗：更新：抓到了一条！一条小鱼，但我抓到了！</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>曼陀罗：看来在它们周围潜行起作用了。它们应该是瞎的！</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>曼陀罗：这可是个惊人的发现，我得马上告诉其他人！我肯定，他们现在得好好考虑一下我的主意了！</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>3</ParentID>
+		<Text>曼陀罗：我已经等不及想要把这些带到我在<![CDATA[<color=orange>南极的庇护所</color>]]>了！</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_HUNTING_BLIND_X1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>DB_HUNTING_BLIND_X2A</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>DB_BRAMBLE_VILLAGE_R2</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

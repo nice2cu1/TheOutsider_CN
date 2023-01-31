@@ -1,0 +1,748 @@
+<DialogueTree>
+	<NameField>Feldspar</NameField>
+
+
+	<DialogueNode>
+		<Name>Feldspar1</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Whoa!</Page>
+		</Dialogue>
+		<RevealFacts><FactID>DB_FELDSPAR_X1</FactID></RevealFacts>
+		<DialogueOptionsList>
+			<DialogueOption>
+<!--
+				<RequiredPersistentCondition>MetFeldspar</RequiredPersistentCondition>
+-->
+				<Text>_Hey, can I ask you something real quick?</Text>
+				<DialogueTarget>FeldsparSkip</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Feldspar! You’re alive!</Text>
+				<DialogueTarget>Feldspar2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>We all thought you were dead for sure.</Text>
+				<DialogueTarget>Feldspar3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Have you been here in Dark Bramble all this time?</Text>
+				<DialogueTarget>Feldspar4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Feldspar2</Name>
+		<Dialogue>
+			<Page>...You never were the brightest hatchling, were you.</Page>
+			<Page>Yeah, that’s right, I’m alive. Been camping out here since my ship, uh, y’know. Crashed.<![CDATA[<Pause>]]> Violently.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Wait, what?</Text>
+				<DialogueTarget>Feldspar5b</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>You <![CDATA[<i>crashed</i>]]>? But you’re the greatest pilot in Hearthian history!</Text>
+				<DialogueTarget>Feldspar2a</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Feldspar2a</Name>
+		<Dialogue>
+			<Page>I haven’t lived in polite society for a while, so I’m just going to go ahead and assume that wasn’t sarcasm.</Page>
+		</Dialogue>
+		<DialogueTarget>Feldspar5a</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Feldspar3</Name>
+		<Dialogue>
+			<Page>What! Me, killed off by thorny, extradimensional plants that entirely violate the laws of space and time, and a couple of giant predatory fish with gaping maws and enormously sharp fangs? Not in this lifetime, little buddy.</Page>
+			<Page>I set up camp here when my ship got stuck here in Dark Bramble. Been living off the land ever since.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>So what exactly happened to your ship?</Text>
+				<DialogueTarget>Feldspar5b</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>“Got stuck”? But aren’t you the greatest pilot in Hearthian history?</Text>
+				<DialogueTarget>Feldspar5c</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Feldspar4</Name>
+		<Dialogue>
+			<Page>Depends on how long “all this time” is. I’ve been here a while, I guess. Ever since I crashed my ship into — that is, ever since my daring escape from the jaws of an anglerfish!</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Tell me more about your flying prowess!</Text>
+				<DialogueTarget>Feldspar4a</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>You crashed your ship, didn’t you.</Text>
+				<DialogueTarget>Feldspar4b</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Feldspar4a</Name>
+		<Dialogue>
+			<Page>Haha, you flatter me!<![CDATA[<Pause>]]> ...I <![CDATA[<i>like</i>]]> it!</Page>
+		</Dialogue>
+		<DialogueTarget>Feldspar5a</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Feldspar4b</Name>
+		<Dialogue>
+			<Page><![CDATA[<i>Obviously</i>]]>, yes. No need to be rude.</Page>
+		</Dialogue>
+		<DialogueTarget>Feldspar5a</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Feldspar5</Name>
+		<Dialogue>
+			<Page>...well, like I said, I crash. Blammo! On impact, my ship starts making noises like it’s coming apart from the inside, and I think, well, that ain’t great. Sure enough, I barely get out of there before the electrical systems start sparking like crazy.</Page>
+			<Page>It’s either move fast or die unpleasantly, so I had to put a little distance between me and my poor, fried ship.</Page>
+			<Page>I camped out near where I crashed at first. I found this skeleton later — great find, would’ve been stupid not to use it.</Page>
+			<Page>So I moved my setup over here and planted my emergency tree seeds. Been here ever since!</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>...Wow.</Text>
+				<DialogueTarget>Feldspar6a</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>I can’t believe you didn’t die.</Text>
+				<DialogueTarget>Feldspar6b</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>I can’t believe you destroyed your ship.</Text>
+				<DialogueTarget>Feldspar6c</DialogueTarget>
+			</DialogueOption>
+				<DialogueOption>
+				<Text>No wonder there are so many stories about you back home!</Text>
+				<DialogueTarget>Feldspar6d</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Feldspar5a</Name>
+		<Dialogue>
+			<Page>_My story goes like this. I’d just finished exploring the core of Giant’s Deep, and I wanted to try my hand at Dark Bramble, seeing as no one had ever been inside before.</Page>
+			<Page>Getting around in Dark Bramble was easy, mind you. Once you’ve dodged one massive, interdimensional vine bristling with thorns, you’ve dodged ’em all.</Page>
+			<Page>But after a while, I run into this huge anglerfish — you’ve seen ’em? Big gnarly things, and this was the biggest one I’ve ever seen. I pull a few stunts, try to shake the thing off — nothing too fancy. I’m going full-speed when the fish clips me, knocks me into a vine, and...</Page>
+		</Dialogue>
+		<DialogueTarget>Feldspar5</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Feldspar5b</Name>
+		<Dialogue>
+			<Page>Oh, this is a good story. I’d just finished exploring the core of Giant’s Deep and needed a new challenge, and none of us had ever been inside Dark Bramble, so I think, hey, let’s give that a try.</Page>
+			<Page>I’ve been cruising around for a while, dodging the odd massive, interdimensional vine bristling with thorns, when I run into this huge anglerfish, the biggest I’ve ever seen.</Page>
+			<Page>I pull a few stunts, try to shake the thing off — nothing too fancy. I’m going full-speed when the fish clips me, knocks me into a vine, and...</Page>
+		</Dialogue>
+		<DialogueTarget>Feldspar5</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Feldspar5c</Name>
+		<Dialogue>
+			<Page>Haha, you flatter me!<![CDATA[<Pause>]]> ...I <![CDATA[<i>like</i>]]> it!</Page>
+			<Page>_I came to Dark Bramble for the excitement. I’d just finished exploring the core of Giant’s Deep and needed a new challenge, and none of us had ever gone farther than Dark Bramble’s walkways, so I thought, hey, let’s give it a try.</Page>
+			<Page>I’ve been cruising around for a while, dodging the odd massive, interdimensional vine bristling with thorns, when I run into this huge anglerfish, the biggest I’ve ever seen.</Page>
+			<Page>I pull a few stunts, try to shake the thing off — nothing too fancy. I’m going full-speed when the fish clips me, knocks me into a vine, and...</Page>
+		</Dialogue>
+		<DialogueTarget>Feldspar5</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Feldspar6a</Name>
+		<Dialogue>
+			<Page>Yeah, pretty much.</Page>
+		</Dialogue>
+		<DialogueTarget>Feldspar7</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Feldspar6b</Name>
+		<Dialogue>
+			<Page>You know, in the old days, I used to think the same thing every time I came back from a flight in one piece.</Page>
+			<Page>These days, I’m used to it.</Page>
+		</Dialogue>
+		<DialogueTarget>Feldspar7</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Feldspar6c</Name>
+		<Dialogue>
+			<Page>Easy for you to say. Your ship probably has all kinds of fancy modifications and upgrades, like “working retro boosters” and “non-flammable construction materials.”</Page>
+		</Dialogue>
+		<DialogueTarget>Feldspar7</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Feldspar6d</Name>
+		<Dialogue>
+			<Page>Heh. You’re not half-bad yourself, making it here in one piece.</Page>
+		</Dialogue>
+		<DialogueTarget>Feldspar7</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Feldspar7</Name>
+		<Dialogue>
+			<Page>Anyway, that’s how it all went down, hatchling!</Page>
+			<Page>Story’s over, but feel free to stay and enjoy the fire a while.</Page>
+			<Page>Or don’t. Fire’s not going anywhere.</Page>
+		</Dialogue>
+		<SetCondition>TalkedToFeldspar</SetCondition>
+		<SetPersistentCondition>MetFeldspar</SetPersistentCondition>
+		<DialogueTarget>FeldsparPrimaryMenu</DialogueTarget>
+	</DialogueNode>
+
+
+
+	<DialogueNode>
+		<Name>FeldsparSkip</Name>
+		<Dialogue>
+			<Page>_Oh, uh... okay. No time for grand heroic tales, huh?</Page>
+		</Dialogue>
+		<SetCondition>TalkedToFeldspar</SetCondition>
+		<DialogueTarget>FeldsparPrimaryMenu</DialogueTarget>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>FeldsparPrimaryMenu</Name>
+		<Dialogue>
+			<Page>_So, whaddya want then, hatchling?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>_Can you help me figure something out?</Text>
+				<DialogueTarget>FigureSomethingOut_</DialogueTarget>
+			</DialogueOption>
+
+			<DialogueOption>
+				<Text>I found something!</Text>
+				<DialogueTarget>FoundSomethingMenu</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Where should I explore here?</Text>
+				<DialogueTarget>FeldsparExplore</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>You reached the core of Giant’s Deep? How’d you do it?</Text>
+				<DialogueTarget>FeldsparCore</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Where’s your ship?</Text>
+				<DialogueTarget>FeldsparShipwreck</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What happened to this anglerfish?</Text>
+				<DialogueTarget>FeldsparFish</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Shouldn’t I tell ground control to come get you?</Text>
+				<DialogueTarget>FeldsparRescue</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Nah, I’m good.</Text>
+				<DialogueTarget>FeldsparGood</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+
+	<DialogueNode>
+		<Name>FeldsparSecondary</Name>
+		<EntryCondition>TalkedToFeldspar</EntryCondition>
+		<Dialogue>
+			<Page>Hey, hatchling, pull up a marshmallow stick!</Page>
+			<Page>Come to hear tales of my heroic exploits, have you?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>_Can you help me figure something out?</Text>
+				<DialogueTarget>FigureSomethingOut_</DialogueTarget>
+			</DialogueOption>
+
+			<DialogueOption>
+				<Text>I found something!</Text>
+				<DialogueTarget>FoundSomethingMenu</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Where should I explore here?</Text>
+				<DialogueTarget>FeldsparExplore</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>You reached the core of Giant’s Deep? How’d you do it?</Text>
+				<DialogueTarget>FeldsparCore</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Where’s your ship?</Text>
+				<DialogueTarget>FeldsparShipwreck</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What happened to this anglerfish?</Text>
+				<DialogueTarget>FeldsparFish</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Shouldn’t I tell ground control to come get you?</Text>
+				<DialogueTarget>FeldsparRescue</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Nah, I’m good.</Text>
+				<DialogueTarget>FeldsparGood</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>FeldsparFish</Name>
+		<Dialogue>
+			<Page>Oh, the skeleton? It was like this when I got here.</Page>
+			<Page>As near as I can tell, this anglerfish must have been chewing on the vine and eaten a seed, and then the seed grew and grew in the poor fish’s stomach until... this happened.</Page>
+			<Page>Gross, huh?</Page>
+			<Page>This skeleton was a good find. Keeps the fish away. See, they’re territorial, so they mostly avoid each other. That’s why I set up camp here.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>FeldsparCore</Name>
+		<Dialogue>
+			<Page>Giant’s Deep’s core, huh? Ahhh, that was a wild one.</Page>
+			<Page>But since you’re asking, I gotta assume you haven’t made it down there yourself yet, right? If I tell you how, it kinda feels like cheating.</Page>
+			<Page>Hm...</Page>
+			<Page>...On a <![CDATA[<i>completely unrelated</i>]]> note, that sure was a big, hollow vine my ship crashed into.<![CDATA[<Pause=3>]]> Yep.</Page>
+			<Page>_If I were you, I’d go take a walk and see where it ends. But, stop before the uh...</Page>
+			<Page>_...Well, you'll know when to stop.</Page>
+			<Page>You’ll want to go to the tail end of this anglerfish skeleton here and look for a flickering light in the fog — that’ll be my old ship. Path starts there.</Page>
+		</Dialogue>
+		<RevealFacts><FactID>DB_FROZEN_JELLYFISH_R1</FactID></RevealFacts>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>FeldsparGood</Name>
+		<Dialogue>
+			<Page>If you change your mind, you know where to find me!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>FeldsparRescue</Name>
+		<Dialogue>
+			<Page>Well... yeah, sure, whenever you have the time.</Page>
+			<Page>Frankly, I kinda like it out here. Quiet, peaceful...ish.</Page>
+			<Page>You’re a little young to understand, but it’s a lot of pressure, being the best that ever was. Been nice to have a break.</Page>
+		</Dialogue>
+		<RevealFacts><FactID>DB_FELDSPAR_X3</FactID></RevealFacts>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>FeldsparExplore</Name>
+		<Dialogue>
+			<Page>That’s the spirit!</Page>
+			<Page>Anywhere’s good, but you should know that space is weird here. Intensely.</Page>
+			<Page>Ever tried throwing your scout into one of these weird seeds? See there, with the little opening? It’s just big enough to launch one through.</Page>
+			<Page>_Your scout tracker will tell you the scout is in two places at once, but I don’t think that’s... wrong, exactly, because space doesn’t work right in here. That seed looks small, see? But inside... Well...</Page>
+			<Page>_I’ve had a lot of time to think about this, and my theory is that these seeds really hate the fabric of spacetime.</Page>
+			<Page>_Good luck exploring Dark Bramble!</Page>
+		</Dialogue>
+		<RevealFacts><FactID>DB_FELDSPAR_X2</FactID></RevealFacts>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>FeldsparShipwreck</Name>
+		<Dialogue>
+			<Page>Not far from here, as a matter of fact! If you go straight past the tail of this anglerfish skeleton here, you’ll see a flickering light in the fog.</Page>
+			<Page>Follow that, and you’ll find my old ship.<![CDATA[<Pause>]]> What’s left of it, anyway.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+<!--
+	FELDSPAR’S CONDITION-DEPENDENT MENU STARTS HERE
+-->
+
+	<DialogueNode>
+		<Name>FoundSomethingMenu</Name>
+		<Dialogue>
+			<Page>Lay it on me, hatchling!</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<RequiredLogCondition>DB_STUDY_TOWER_TOP_X1</RequiredLogCondition>
+				<Text>_I found a way to the top of the Study Tower, and...</Text>
+				<DialogueTarget>FoundSomethingNew1_</DialogueTarget>
+			</DialogueOption>
+
+
+			<DialogueOption>
+				<RequiredLogCondition>GD_OCEAN_X2</RequiredLogCondition>
+				<Text>I went to the core of Giant’s Deep.</Text>
+				<DialogueTarget>FoundSomething1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>DB_FROZEN_JELLYFISH_X1</RequiredLogCondition>
+				<Text>I found the frozen jellyfish near your ship.</Text>
+				<DialogueTarget>FoundSomething2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredPersistentCondition>EX_ANGLERFISH_NEST</RequiredPersistentCondition>
+				<Text>I found the Anglerfish nest.</Text>
+				<DialogueTarget>FoundSomething3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>TH_IMPACT_CRATER_X1</RequiredLogCondition>
+				<Text>I found a Dark Bramble seed on Timber Hearth.</Text>
+				<DialogueTarget>FoundSomething4</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>CT_ANGLERFISH_FOSSIL_X2</RequiredLogCondition>
+				<Text>I found Nomai writing saying anglerfish are blind.</Text>
+				<DialogueTarget>FoundSomething5</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredPersistentCondition>EX_NOMAI_SHUTTLE_FLYING</RequiredPersistentCondition>
+				<Text>I found a Nomai shuttle and flew it!</Text>
+				<DialogueTarget>FoundSomething7</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Actually, nevermind.</Text>
+				<DialogueTarget>FoundSomething6</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>FoundSomething1</Name>
+		<Dialogue>
+			<Page>So you figured out the ol’ tornado trick, did you? Good work!</Page>
+			<Page>I found that bit out by accident, but let’s keep that between you and me, hey? Hornfels would have my very handsome head if they knew I’d been riding the cyclones again.</Page>
+			<Page>_“The ship is fragile! It can break! You can’t subject it to extreme conditions!” Not like I was trying to land on the Sun Station, now, was I?</Page>
+			<Page>And the jellyfish, you figured those out, too? Hatchling, I tell you what, you’ve done real well for yourself! You’re a fine astronaut, sure, but you might just become a pilot yet!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>FoundSomething2</Name>
+		<Dialogue>
+			<Page>Ha! So the old thing still there, is it? That’s where I first camped out after the crash, you know. It was pretty cozy inside!</Page>
+			<Page>It does lack the structural integrity and indomitable spirit of a camp made in the shelter of the very bones of the species that tried to eat you, I suppose.</Page>
+			<Page>Still. Very cozy.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>FoundSomething3</Name>
+		<Dialogue>
+			<Page>So that’s where the blasted things come from, is it? Stars above, if I still had a working ship, I’d be sorely tempted to go show ’em what’s what!</Page>
+			<Page><![CDATA[<color=grey>Sigh...</color>]]></Page>
+			<Page>Probably best to leave ’em alone, though, really. More trouble than it’s worth to mess with anglerfish.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>FoundSomething4</Name>
+		<Dialogue>
+			<Page>...That’s bad business, hatchling.</Page>
+			<Page>As Chert will tell you if you so much as glance in Dark Bramble’s direction, there used to be a fifth planet where the Bramble is now.</Page>
+			<Page>This infernal plant appeared at the center and kept growing, and growing, and growing, until it shattered the planet and scattered its pieces across space.</Page>
+			<Page>If we don’t get that seed you found sorted real quicklike, I suspect Timber Hearth will be heading toward the same fate. And I tell you what, we Hearthians have overcome far too much to be done in by some worthless <![CDATA[<i>seed</i>]]>.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>FoundSomething5</Name>
+		<Dialogue>
+			<Page>A-<![CDATA[<i>ha</i>]]>! So the blasted things <![CDATA[<i>do</i>]]> have a weakness!</Page>
+			<Page>Meaning my fly-as-fast-as-I-can approach to dealing with them could have used a bit more thought behind it.</Page>
+			<Page>Ah, well, at least they didn’t eat me. All’s well that ends well, eh, hatchling?</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>FoundSomething7</Name>
+		<Dialogue>
+			<Page>You flew a Nomaian shuttle? You don’t say! How was it? How did it handle?</Page>
+			<Page>Can’t say I’d mind having a go at that myself, hatchling. Once I return to Timber Hearth, maybe that’ll have to be my next stop.</Page>
+			<Page>A brand-new astronaut, and you’re already a pro adventurer! Outer Wilds Ventures is in good hands with you, I can tell. The flight program is <![CDATA[<i>going</i>]]> places!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>FoundSomething6</Name>
+		<Dialogue>
+			<Page>Nothing you want to share with me? Sounds like you’d better get out there and start exploring!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+<!--
+	NOTE: New nodes not in language lookup table should end with a '_' to display default English text correctly.
+	Dialogue Options and Pages that aren't in a correctly named node should start with '_'
+-->
+
+	<DialogueNode>
+		<Name>FoundSomethingNew1_</Name>
+		<Dialogue>
+			<Page>... Uhuh. ... Oh. ... Huh?</Page>
+			<Page>Wait wait wait. Giant's Deep tore it off the surface, and you rode the tower on over?!</Page>
+			<Page>Damn. Are you trying to out-Feldspar me? Well done, hatchling, proud of you.</Page>
+			<Page>(Hmm... now what could I do to top that maneuver?)</Page>
+			<Page>(Oh, I know! I could land on that Sun Station thing!)</Page>
+			<Page>(...)</Page>
+			<Page>(Nah, that would be dumb.)</Page>
+		</Dialogue>
+	</DialogueNode>
+
+<!--
+	NEW FIGURE SOMETHING OUT
+-->
+
+	<DialogueNode>
+		<Name>FigureSomethingOut_</Name>
+		<Dialogue>
+			<Page>Well, I’ll probably answer as cryptically as usual, but sure, hatchling, what is it?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<RequiredLogCondition>DB_NORTHERN_OBSERVATORY_R1</RequiredLogCondition>
+				<Text>The Northern Observatory has two security measures and I can’t get in!</Text>
+				<DialogueTarget>FigureSomethingOut0_</DialogueTarget>
+			</DialogueOption>
+
+			<DialogueOption>
+				<RequiredLogCondition>DB_BRAMBLE_VILLAGE_X4</RequiredLogCondition>
+				<Text>There’s a painting in the Village that I think is hiding a room behind it.</Text>
+				<DialogueTarget>FigureSomethingOut4_</DialogueTarget>
+			</DialogueOption>
+
+			<DialogueOption>
+				<RequiredLogCondition>DB_STUDY_TOWER_X1</RequiredLogCondition>
+				<Text>How might I get to the top of the Study Tower?</Text>
+				<DialogueTarget>FigureSomethingOut1_</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>DB_PROJECTION_POOL_HOUSE_R1</RequiredLogCondition>
+				<Text>How might I find the Projection Pool House?</Text>
+				<DialogueTarget>FigureSomethingOut2_</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>DB_SIMULATION_HOUSE_X1</RequiredLogCondition>
+				<Text>How might I open the door at the end of the secret path behind the jellyfish?</Text>
+				<DialogueTarget>FigureSomethingOut3_</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Actually, I’ll figure it out on my own.</Text>
+				<DialogueTarget>FigureSomethingOutCancel_</DialogueTarget>
+			</DialogueOption>
+
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>FigureSomethingOutCancel_</Name>
+		<Dialogue>
+			<Page>Alright. It’s always more fun that way, anyway, so good call.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>FigureSomethingOut0_</Name>
+		<Dialogue>
+			<Page>Hmm... two security measures, eh?</Page>
+		</Dialogue>
+
+		<DialogueTarget>FigureSomethingOutResponseA_</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>FigureSomethingOutResponseA_</Name>
+		<Dialogue>
+			<Page>Well, once you know what they are... then uh... then you can get in.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>...Right.</Text>
+				<DialogueTarget>FigureSomethingOutResponseA1_</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>And... how do I find out what they are?</Text>
+				<DialogueTarget>FigureSomethingOutResponseA2_</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>FigureSomethingOutResponseA1_</Name>
+		<Dialogue>
+			<Page>Cool. Glad I could be of help.</Page>
+		</Dialogue>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>FigureSomethingOutResponseA2_</Name>
+		<Dialogue>
+			<Page>Well, I don’t know. Explore! Look around! Ask someone! ...else!</Page>
+			<Page>Try to get somewhere hard to reach. There’s usually good stuff in hard to reach places.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+
+
+	<DialogueNode>
+		<Name>FigureSomethingOut1_</Name>
+		<Dialogue>
+			<Page>That’s the stupid-looking tall structure, isn’t it?</Page>
+			<Page>Ah yes, the stairs have collapsed, right? Well, then you’ll need to find something else to get you up through the staircase, won’t you?</Page>
+		</Dialogue>
+
+		<DialogueTarget>FigureSomethingOutResponseB_</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>FigureSomethingOut2_</Name>
+		<Dialogue>
+			<Page>The what?</Page>
+			<Page>Oh, it fell in here, did it? Well then you’re not going to find it by randomly wandering around this place...</Page>
+			<Page>So, do what you did to find me! ...Though, I doubt it’s sending out a signal like I am, so... that might be a problem.</Page>
+			<Page>Hey, you’re smart. You’ll figure something out.</Page>
+		</Dialogue>
+
+		<DialogueTarget>FigureSomethingOutResponseB_</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>FigureSomethingOut3_</Name>
+		<Dialogue>
+			<Page>Ha, you found that too? Well, if you payed attention, you might have noticed that the door is actually on Dark Bramble’s surface.</Page>
+			<Page>So, maybe the solution... lies on the surface.</Page>
+		</Dialogue>
+
+		<DialogueTarget>FigureSomethingOutResponseB_</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>FigureSomethingOutResponseB_</Name>
+		<Dialogue>
+			<Page>Yup.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Thanks, Feldspar.</Text>
+				<DialogueTarget>FigureSomethingOutResponseB1_</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>That’s not very helpful.</Text>
+				<DialogueTarget>FigureSomethingOutResponseB2_</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>FigureSomethingOutResponseB1_</Name>
+		<Dialogue>
+			<Page>You’re welcome, hatchling.</Page>
+		</Dialogue>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>FigureSomethingOutResponseB2_</Name>
+		<Dialogue>
+			<Page>It is, you just don’t know it yet.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>FigureSomethingOut4_</Name>
+		<Dialogue>
+			<Page>Secret room behind a painting? Hmm. Let me think...</Page>
+			<Page>Uhhhmmm.</Page>
+			<Page>Uuuuuuuuuuuuuuuuuhhhhhhhhhhhhhhhhhhhh.</Page>
+		</Dialogue>
+
+		<DialogueTarget>FigureSomethingOutResponseC_</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>FigureSomethingOutResponseC_</Name>
+		<Dialogue>
+			<Page>Hhhhhmmmmmmmmmmmm.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>...Nevermind, I’ll... figure it out myself.</Text>
+				<DialogueTarget>FigureSomethingOutResponseC1_</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>...Yes?</Text>
+				<DialogueTarget>FigureSomethingOutResponseC2_</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>FigureSomethingOutResponseC1_</Name>
+		<Dialogue>
+			<Page>Ah. Yes. Use that brain of yours.</Page>
+			<Page>Well, if you need help with anything else, I'll be sitting right here.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>FigureSomethingOutResponseC2_</Name>
+		<Dialogue>
+			<Page>Uhhhhhhhhhh.</Page>
+			<Page>HHHHHHHHMMMMMMMMMMMMMMMMMMMM?????</Page>
+			<Page>MMMMMMMMMMMMMMMMM!!!!!!!!!!!!!!!!!!!!</Page>
+			<Page>...Nah. I got nothing.</Page>
+		</Dialogue>
+		<DialogueTarget>FigureSomethingOutResponseD_</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>FigureSomethingOutResponseD_</Name>
+		<Dialogue>
+			<Page>Someone turned off the ideas lightbulb above my head, I guess.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>...What does that even mean?</Text>
+				<DialogueTarget>FigureSomethingOutResponseD1_</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Well, thanks anyway.</Text>
+				<DialogueTarget>FigureSomethingOutResponseD2_</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>FigureSomethingOutResponseD1_</Name>
+		<Dialogue>
+			<Page>You tell me, hatchling. You tell me.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>FigureSomethingOutResponseD2_</Name>
+		<Dialogue>
+			<Page>Yeah, catch ya later, hatchling. Sorry I couldn’t be of more help.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

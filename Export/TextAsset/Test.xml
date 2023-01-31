@@ -1,0 +1,53 @@
+<!--
+1 — 2 — 3 — 5 — 6 — 7
+	    |
+	    4
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>曼陀罗：我已经把<![CDATA[<color=lightblue>另一个挪麦人</color>]]> 甩在后面了。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>曼陀罗：我想<![CDATA[<color=lightblue>黑棘星</color>]]>现在是我最好的朋友了。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>奥埃诺：不，这些塔楼的材料都是从<![CDATA[<color=lightblue>灰烬双星</color>]]>取来的。 我们在这里开采的矿石将被用来制作一个极厚的保护壳，它将物理上封闭<![CDATA[<color=lightblue>灰烬双星</color>]]>的核心内部。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>2</ParentID>
+		<Text>科利耶斯：我们家族决定只使用<![CDATA[<color=lightblue>木炉星</color>]]>的矿石来建造外壳，这让我松了一口气。如果，这个星球上的生命进化到了先进冶金的地步，我相信我们不会摧毁他们创造的能力！</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>2</ParentID>
+		<Text>塞卡：如果他们封锁了所有入口，我希望他们已经<![CDATA[<i>计划</i>]]>好了!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>3</ParentID>
+		<Text>奥埃诺：我以为你已经禁止你的徒弟说双关语了，科利耶斯。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>1</ParentID>
+		<Text>科利耶斯：他还能有什么进步呢？</Text>
+	</TextBlock>
+	
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>TT_TIME_LOOP_DEVICE_R1</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>TH_NOMAI_MINE_X1</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

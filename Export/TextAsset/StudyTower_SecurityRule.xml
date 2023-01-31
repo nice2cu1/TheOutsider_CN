@@ -1,0 +1,27 @@
+<!--
+1 - 2 - 3 - 4
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>曼陀罗： Lami 又跑到我的<![CDATA[<color=orange>天文台</color>]]> 里了！</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>曼陀罗：啊，我知道了！我会加一个探测器，如果另一艘飞船(不是我们的)在黑棘星的表面，门就会被锁上。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>曼陀罗：呵，现在他们进来的唯一方法就是从轨道上太空行走过来！这局我赢了， Lami ！</Text>
+	</TextBlock>
+	
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_STUDY_TOWER_TOP_X1</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

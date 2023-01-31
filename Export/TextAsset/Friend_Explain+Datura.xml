@@ -1,0 +1,31 @@
+<!--
+1 - 2
+|
+3 - 4
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Friend：哈哈哈，你给我解释一下！他是我的好朋友，但对他的家族来说并不总是（是与不是的叠加态？你懂的。）。也不是对他自己。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>Friend：我希望他已经逃出了这个星系，但我知道...那不可能。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<Text>Friend：我与他在黑棘星上的日子已经过去了很久...不过，或许有点奇怪：感觉就像还在眼前。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>Friend：假设：你只有在这才能留下这么多独特的回忆。在一段很长的时间之后，日、月...上千年...全都混为一谈了。</Text>
+	</TextBlock>
+
+</NomaiObject>

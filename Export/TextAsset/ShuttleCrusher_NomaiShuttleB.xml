@@ -1,0 +1,37 @@
+<!--
+1 - 2 - 3 - 4
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>曼陀罗：更新：我想我做到了。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>曼陀罗：我对航天飞机使用了这台粉碎机：它撞出了凹痕，触发了警报。嗯，令人震惊。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>曼陀罗：跃迁核心掉了出来，所以我走过去抓住它——我想，也许有用。但是在回到这里第二次使用该设备后，航天飞机居然爆炸了！</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>曼陀罗：任务完成。但是，哇，我也差点死了！应该更小心一点...</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_SHUTTLE_CRUSHER_X1</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+
+		<RevealFact>
+			<FactID>DB_INITIAL_CAMP_R1</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

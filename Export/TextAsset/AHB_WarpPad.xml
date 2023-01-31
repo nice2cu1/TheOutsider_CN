@@ -1,0 +1,23 @@
+<!--
+1 - 2
+|
+3
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>曼陀罗：跃迁垫！很简单！...亚罗，为什么你和鲁特计划浪费这么多时间和资源为每个跃迁垫建造巨型塔楼？！</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>曼陀罗：一座塔就够了！</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<Text>曼陀罗：好吧，我不会跟他承认的..但是...那主意很酷。</Text>
+	</TextBlock>
+
+</NomaiObject>

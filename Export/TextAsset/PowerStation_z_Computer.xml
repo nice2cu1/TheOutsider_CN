@@ -1,0 +1,21 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text><![CDATA[<color=orange>警告：</color>]]> 日冕物质抛射！</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text><![CDATA[<color=red>错误：</color>]]> 重力稳定系统受损！</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<Text><![CDATA[<color=orange>警告：</color>]]> 深巨星在<![CDATA[<TimeMinutesGDApproach>]]>分<![CDATA[<TimeSecondsGDApproach>]]>秒后接近！</Text>
+	</TextBlock>
+	
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>PS_POWER_STATION_X2</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

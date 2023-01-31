@@ -1,0 +1,34 @@
+<!--
+1 - 2
+| \
+3  4
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>曼陀罗：芜湖！终于建完了这座愚蠢的太空站！</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>曼陀罗：没有你的帮助是做不到的，朋友！（还有你的飞船！）</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<Text>曼陀罗：这些种子太棒了！省去了到处拉长电缆的功夫。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>1</ParentID>
+		<Text>曼陀罗：很酷对吧？</Text>
+	</TextBlock>
+	
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>PS_POWER_STATION_X1</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

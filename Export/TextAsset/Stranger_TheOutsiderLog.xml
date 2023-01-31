@@ -1,0 +1,33 @@
+<AstroObjectEntry>
+	<ID>INVISIBLE_PLANET</ID>
+
+	<Entry>
+		<ID>IP_DREAM_HOME</ID>
+		<Name>_悬崖边的建筑</Name>
+		<RumorFact>
+			<ID>IP_DREAM_HOME_R1</ID>
+			<SourceID>DB_SIMULATION_HOUSE_INSIDE</SourceID>
+			<RumorName>建筑内部</RumorName>
+			<Text>我找到了...朋友的遗体，在青色火焰旁，手持文物。</Text>
+		</RumorFact>
+
+		<ExploreFact>
+			<ID>IP_DREAM_HOME_X1</ID>
+			<Text>我见到了朋友！因为我无法翻译他的语言，所以使用挪麦语交流。</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>IP_DREAM_HOME_X2</ID>
+			<Text>在天文台其中一项安全措施中，曼陀罗使用了量子碎片来影响天文台的门，所以当我进入时，绝对不能盯着门看。</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>IP_DREAM_HOME_X3</ID>
+			<Text>幽禁者短暂地释放了眼的信号并被关在了模拟世界中。有人曾计划将他放出来，回到模拟的其他人中间。</Text>
+		</ExploreFact>
+
+		<ExploreFact>
+			<ID>IP_DREAM_HOME_X4</ID>
+			<Text>挪麦人到达时，朋友长老们都已死亡进入了模拟，只有一小群年轻人还在外界活着。</Text>
+		</ExploreFact>
+	</Entry>
+
+</AstroObjectEntry>

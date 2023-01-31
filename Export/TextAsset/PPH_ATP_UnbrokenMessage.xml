@@ -1,0 +1,60 @@
+<!--
+1 - 2 - 3 - 4 - 5 - 6
+unused: dangerous substance! When it flies passed the sun, it will
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>曼陀罗：Hello? 亚罗! There’s-</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<LocationB/>
+		<Text>亚罗： Oh... hello. Hypothesis: Our failure with the Sun Station brought you here to ridicule me.</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationB/>
+		<Text><![CDATA[<color=brown>斯拜尔</color>]]>: Uh... Hypothesis: it would be beneficial to you both if neither of you called each other anymore.</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>曼陀罗：I... 亚罗, are you alright? 亚罗? Hey, wait!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationB/>
+		<Text><![CDATA[<color=brown>斯拜尔</color>]]>: Oh, see you later, 亚罗! Don’t worry, we’ll figure it out! I believe in us! ...So, 曼陀罗, what is the true intent of your call?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>曼陀罗：Uh, th-there’s a comet coming! And it’s filled with-!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<LocationB/>
+		<Text><![CDATA[<color=brown>斯拜尔</color>]]>: Oh, you observed the comet too? You and me both! We’ve actually already sent a shuttle to go check it out. But thanks anyway, 曼陀罗.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<LocationB/>
+		<Text><![CDATA[<color=brown>斯拜尔</color>]]>: Well, I’m gonna catch up to亚罗to see if he’s alright. See ya around! Don’t be a stranger, now!</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_PROJECTION_POOL_HOUSE_X3_ATP</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

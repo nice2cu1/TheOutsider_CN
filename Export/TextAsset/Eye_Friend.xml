@@ -1,0 +1,55 @@
+<!--
+1 - 2 - 3 - 4 - 5 - 6 - 7 - 8
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Friend：眼，在刚发现的时候，大家都只知道它比宇宙还老。和挪麦人一样，我们的好奇心让我们在接近它的时候付出了巨大牺牲。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>Friend：在来的旅途中，飞船上一个广为流传的理论是眼创造了这个宇宙。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>Friend：如果这不是眼的第一次出现。假设：当宇宙每次死亡时，眼能重新创造宇宙？</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>Friend：我们到达了眼... 有一个人看到了他与眼互动后摧毁宇宙的景象。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>Friend：大多数人都惊恐万分、悲痛欲绝——他们的新目标变成了把眼藏起来，保护我们的宇宙。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>Friend：我的其他朋友和我都不相信眼是可怕的。我们仍然相信眼是一个创造者。也许这景象被误解了，或者与错误的，或者景象并未结束呢？</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>Friend：其他人的内心已经被重创，他们不想再被伤害，所以他们无视了我们，并告诉我们继续前进，不要再执着于过去...</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>Friend：但我心里始终认为：眼是善意的。我相信眼的故事比他们想知道的多得多。</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_BRAMBLE_VILLAGE_X3B</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

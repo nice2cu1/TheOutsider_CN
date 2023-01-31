@@ -1,0 +1,350 @@
+<AstroObjectEntry>
+	<ID>DARK_BRAMBLE</ID>
+
+	<Entry>
+		<ID>DB_NORTHERN_OBSERVATORY</ID>
+		<Name>_北部天文台</Name>
+		<Curiosity>OUTSIDER</Curiosity>
+		<IsCuriosity/>
+
+		<RumorFact>
+			<ID>DB_NORTHERN_OBSERVATORY_R1</ID>
+			<RumorName>_北部天文台</RumorName>
+			<RumorNamePriority>1</RumorNamePriority>
+			<Text>在黑棘星表面的北极有个天文台，因为安全措施的缘故，入口保持关闭状态。</Text>
+		</RumorFact>
+		<RumorFact>
+			<ID>DB_NORTHERN_OBSERVATORY_R2</ID>
+			<SourceID>DB_STUDY_TOWER</SourceID>
+			<RumorName>北部天文台</RumorName>
+			<RumorNamePriority>0</RumorNamePriority>
+			<Text>曼陀罗发现了一些让他不安的事情，他得去天文台确认。</Text>
+		</RumorFact>
+
+		<ExploreFact>
+			<ID>DB_NORTHERN_OBSERVATORY_X1</ID>
+			<Text>我找到了曼陀罗的尸体...</Text>
+		</ExploreFact>
+<!--
+		<ExploreFact>
+			<ID>DB_NORTHERN_OBSERVATORY_X2</ID>
+			<Text>Friend’s elders were given schematics on how to build various spacecraft and machines.</Text>
+		</ExploreFact>
+-->
+		<ExploreFact>
+			<ID>DB_NORTHERN_OBSERVATORY_X3</ID>
+			<Text>在他的投影池里，曼陀罗试图警告其他人闯入者的到来，但他们已经知道了。</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>DB_NORTHERN_OBSERVATORY_X4</ID>
+			<Text>闯入者到来时，所莱内姆抵达量子卫星的第六个位置。</Text>
+		</ExploreFact>
+	</Entry>
+
+	<Entry>
+		<ID>DB_STUDY_TOWER</ID>
+		<Name>_研究塔</Name>
+		<Curiosity>OUTSIDER</Curiosity>
+
+		<ExploreFact>
+			<ID>DB_STUDY_TOWER_X1</ID>
+			<Text>一位名叫曼陀罗的挪麦人在太空中发现了一个球形区域，那里的星星偶尔会闪烁。</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>DB_STUDY_TOWER_X2</ID>
+			<Text>在遇到另一个物种的生物后，曼陀罗帮助他们在南极建造了一座房子。</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>DB_STUDY_TOWER_X3</ID>
+			<Text>曼陀罗发现了一些让他不安的事情，他得去天文台确认。</Text>
+		</ExploreFact>
+
+
+		<Entry>
+			<ID>DB_STUDY_TOWER_TOP</ID>
+			<Name>_塔顶</Name>
+			<Curiosity>OUTSIDER</Curiosity>
+
+			<RumorFact>
+				<ID>DB_STUDY_TOWER_TOP_R1</ID>
+				<Text>通往研究塔塔顶的楼梯已经倒塌。</Text>
+			</RumorFact>
+			<RumorFact>
+				<ID>DB_STUDY_TOWER_TOP_R2</ID>
+				<Text>透过窗户，我看到一面写着挪麦文字的钱墙。</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>DB_STUDY_TOWER_TOP_X1</ID>
+				<Text>曼陀罗为他的天文台增加了第二项安全措施。如果另一艘飞船在黑棘星的表面，门将保持关闭状态。</Text>
+			</ExploreFact>
+		</Entry>
+	</Entry>
+
+	<Entry>
+		<ID>DB_BRAMBLE_VILLAGE</ID>
+		<Name>_荆棘小屋</Name>
+		<Curiosity>OUTSIDER</Curiosity>
+		<RumorFact>
+			<ID>DB_BRAMBLE_VILLAGE_R1</ID>
+			<SourceID>DB_STUDY_TOWER</SourceID>
+			<RumorName>荆棘小屋</RumorName>
+			<RumorNamePriority>1</RumorNamePriority>
+			<Text>在遇到另一个物种的生物后，曼陀罗帮助他在南极建造了一座房子。 </Text>
+		</RumorFact>
+		<RumorFact>
+			<ID>DB_BRAMBLE_VILLAGE_R2</ID>
+			<SourceID>DB_HUNTING_BLIND</SourceID>
+			<RumorName>南极庇护所</RumorName>
+			<RumorNamePriority>0</RumorNamePriority>
+			<Text>曼陀罗在南极为自己建造了一个庇护所。</Text>
+		</RumorFact>
+
+		<ExploreFact>
+			<ID>DB_BRAMBLE_VILLAGE_X1</ID>
+			<Text>曼陀罗教朋友挪麦语，他们教他艺术。</Text>
+		</ExploreFact>
+		
+		<ExploreFact>
+			<ID>DB_BRAMBLE_VILLAGE_X2</ID>
+			<Text>曼陀罗对亚罗争辩他们应该想办法离开这个星系。曼陀罗向费利克斯保证他一定会回来后，就动身前往黑棘星寻找飞船。</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>DB_BRAMBLE_VILLAGE_X3A</ID>
+			<Text>曼陀罗对眼持悲观态度，坚定的认为与眼交流会毁灭宇宙。</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>DB_BRAMBLE_VILLAGE_X3B</ID>
+			<Text>朋友认为眼是善意的，相信眼是宇宙的创造者。</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>DB_BRAMBLE_VILLAGE_X4</ID>
+			<Text>在朋友的家里，我发现了一段楼梯，陡然向下通向一幅内陆星球的画作，天空中有一个蓝色的环形气态行星。</Text>
+		</ExploreFact>
+		
+		<Entry>
+			<ID>DB_SECRET_ROOM</ID>
+			<Name>_密室</Name>
+			<Curiosity>OUTSIDER</Curiosity>
+
+			<RumorFact>
+				<RumorName>_密室</RumorName>
+				<ID>DB_SECRET_ROOM_R1</ID>
+				<Text>在朋友的家里，我发现了一段楼梯，陡然向下通向一幅内陆星球的画作，天空中有一个蓝色的环形气态行星。</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>DB_SECRET_ROOM_X1</ID>
+				<Text>朋友家中的密室里有一张照片，揭示了一条位于冰封水母后面的隐藏道路。</Text>
+			</ExploreFact>
+			<ExploreFact>
+				<ID>DB_SECRET_ROOM_X2</ID>
+				<Text>曼陀罗和朋友讨论了他们关于眼的理解，并提出他们的理解或多或少是正确的。</Text>
+			</ExploreFact>
+		</Entry>
+	</Entry>
+
+	<Entry>
+		<ID>DB_SIMULATION_HOUSE</ID>
+		<Name>_与世隔绝的建筑</Name>
+		<Curiosity>OUTSIDER</Curiosity>
+		
+		<RumorFact>
+			<ID>DB_SIMULATION_HOUSE_R1</ID>
+			<SourceID>DB_SECRET_ROOM</SourceID>
+			<RumorName>隐藏道路</RumorName>
+			<Text>朋友家中的密室里有一张照片，揭示了一条位于冰封水母后面的隐藏道路。</Text>
+		</RumorFact>
+
+		<ExploreFact>
+			<ID>DB_SIMULATION_HOUSE_X1</ID>
+			<Text>这座大楼的入口处似乎已经被封锁了。曼陀罗的理论认为，只有爆炸才能制造出一个缺口。</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>DB_SIMULATION_HOUSE_X2</ID>
+			<Text>如果我想回到这里，我应该使用平显上的标记位置功能，就像斯雷特告诉我的那样</Text>
+		</ExploreFact>
+
+		<Entry>
+			<ID>DB_SIMULATION_HOUSE_INSIDE</ID>
+			<Name>_只能炸开的内容（建筑内部）</Name>
+			<Curiosity>OUTSIDER</Curiosity>
+			<RumorFact>
+				<ID>DB_SIMULATION_HOUSE_INSIDE_R1</ID>
+				<RumorName>密封入口</RumorName>
+				<Text>这座大楼的入口处似乎已经被封锁了。曼陀罗的理论认为，只有爆炸才能制造出一个缺口。</Text>
+			</RumorFact>
+
+			<ExploreFact>
+				<ID>DB_SIMULATION_HOUSE_INSIDE_X1</ID>
+				<Text>我找到了...朋友的遗体，在青色火焰旁，手持文物。</Text>
+			</ExploreFact>
+			<ExploreFact>
+				<ID>DB_SIMULATION_HOUSE_INSIDE_X2</ID>
+				<Text>曼陀罗很好奇朋友有什么事情瞒着他，于是偷偷溜到了这里。他发现了一件文物和绿色的火焰，摔倒后失去了意识，在一个像是其他的星球上醒来。</Text>
+			</ExploreFact>
+			<ExploreFact>
+				<ID>DB_SIMULATION_HOUSE_INSIDE_X3</ID>
+				<Text>曼陀罗偶然遇到了朋友的族人，不小心按下了警钟，把一个人吵醒了。</Text>
+			</ExploreFact>
+			<ExploreFact>
+				<ID>DB_SIMULATION_HOUSE_INSIDE_X4</ID>
+				<Text>他被朋友叫醒了，有一些人来到了黑棘星。</Text>
+			</ExploreFact>
+			<ExploreFact>
+				<ID>DB_SIMULATION_HOUSE_INSIDE_X5</ID>
+				<Text>那些人把他们分开，用封锁入口处的方式围住了朋友。</Text>
+			</ExploreFact>
+
+		</Entry>
+
+	</Entry>
+
+	<Entry>
+		<ID>DB_SHUTTLE_CRUSHER</ID>
+		<Name>_航天飞机摧毁装置</Name>
+		<Curiosity>OUTSIDER</Curiosity>
+
+		<RumorFact>
+			<ID>DB_SHUTTLE_CRUSHER_R1</ID>
+			<SourceID>DB_INITIAL_CAMP</SourceID>
+			<RumorName>航天飞机</RumorName>
+			<Text>曼陀罗乘坐一架航天飞机降落在黑棘星表面，他不知道该怎么办。</Text>
+		</RumorFact>
+
+		<ExploreFact>
+			<ID>DB_SHUTTLE_CRUSHER_X1</ID>
+			<Text>一个名叫曼陀罗的挪麦人创造了这个来摧毁他的航天飞机。在损坏航天飞机后，它的警报响起，并在一段时间后爆炸。</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>DB_SHUTTLE_CRUSHER_X2</ID>
+			<Text>一个被称为朋友的人也想摧毁飞船。在损坏了他们的飞船后，警报也响起了。曼陀罗记得，他应该站的远远的等待飞船爆炸。</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>DB_SHUTTLE_CRUSHER_X3</ID>
+			<Text>我用一个开关激活了摧毁装置。</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>DB_SHUTTLE_CRUSHER_X4</ID>
+			<Text>在一段录音中，曼陀罗 向他的女儿所莱内姆讲述了有关飞船坠毁的事。</Text>
+		</ExploreFact>
+	</Entry>
+
+	<Entry>
+		<ID>DB_PROJECTION_POOL_HOUSE</ID>
+		<Name>_投影池室</Name>
+		<Curiosity>OUTSIDER</Curiosity>
+		<RumorFact>
+			<ID>DB_PROJECTION_POOL_HOUSE_R1</ID>
+			<SourceID>DB_STUDY_TOWER</SourceID>
+			<RumorName>缺少投影池</RumorName>
+			<RumorNamePriority>1</RumorNamePriority>
+			<Text>研究塔旁边建筑物似乎已经断裂并坠落到星球某处。</Text>
+		</RumorFact>
+		<RumorFact>
+			<ID>DB_PROJECTION_POOL_HOUSE_R2</ID>
+			<SourceID>DB_SHUTTLE_CRUSHER</SourceID>
+			<RumorName>投影池室</RumorName>
+			<RumorNamePriority>0</RumorNamePriority>
+			<Text>曼陀罗在着陆点以西的一个岛屿上建造了一个投影池，以便能够与妻子和女儿交谈。</Text>
+		</RumorFact>
+
+		<ExploreFact>
+			<ID>DB_PROJECTION_POOL_HOUSE_X1</ID>
+			<Text>曼陀罗试图离开黑棘星，但当时两架航天飞机都在使用中。</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>DB_PROJECTION_POOL_HOUSE_X2</ID>
+			<Text>曼陀罗让贝尔斯告诉所莱内姆不必着急，并告诉费利克斯他很抱歉并不久后就回去见她。</Text>
+		</ExploreFact>
+		
+		<ExploreFact>
+			<ID>DB_PROJECTION_POOL_HOUSE_X3</ID>
+			<Text>在一块受损的石头上，曼陀罗打电话给其他人，警告他们有事情要做。但是，他们已经知道这件事了。</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>DB_PROJECTION_POOL_HOUSE_X3_ATP</ID>
+			<IgnoreMoreToExplore/>
+			<Text>在这块完好无损的石头里，曼陀罗试图警告其他人注意入侵者。但是，他们已经知道这件事了。</Text>
+		</ExploreFact>
+
+		<ExploreFact>
+			<ID>DB_PROJECTION_POOL_HOUSE_X4</ID>
+			<Text>曼陀罗和所莱内姆计划在他完成一些事情后，在她从量子卫星回来后见面。</Text>
+		</ExploreFact>
+		
+	</Entry>
+
+	<Entry>
+		<ID>DB_HUNTING_BLIND</ID>
+		<Name>_狩猎小屋</Name>
+		<Curiosity>OUTSIDER</Curiosity>
+
+		<RumorFact>
+			<ID>DB_HUNTING_BLIND_R1</ID>
+			<SourceID>DB_INITIAL_CAMP</SourceID>
+			<RumorName>鮟鱇鱼狩猎小屋</RumorName>
+			<Text>曼陀罗需要食物来源，考虑吃... 鮟鱇鱼。</Text>
+		</RumorFact>
+
+		<ExploreFact>
+			<ID>DB_HUNTING_BLIND_X1</ID>
+			<Text>曼陀罗去探索黑棘星深处，部分原因是为了寻找... 食物。</Text>
+		</ExploreFact>
+
+		<ExploreFact>
+			<ID>DB_HUNTING_BLIND_X2A</ID>
+			<Text>曼陀罗还发现鮟鱇鱼眼睛看不见。</Text>
+		</ExploreFact>
+		<ExploreFact>
+			<ID>DB_HUNTING_BLIND_X2B</ID>
+			<Text>在将这一发现告诉亚罗时，他起初很感兴趣，但谈话变成了一场大争论。</Text>
+		</ExploreFact>
+
+		<ExploreFact>
+			<ID>DB_HUNTING_BLIND_X3</ID>
+			<Text>曼陀罗找到了3号逃生舱上的挪麦人和他的家族领袖艾斯科尔的遗骸</Text>
+		</ExploreFact>
+	</Entry>
+
+	<Entry>
+		<ID>DB_DRIFTING_DEATH</ID>
+		<Name>收集者壁画</Name>
+		<Curiosity>OUTSIDER</Curiosity>
+
+		<RumorFact>
+			<ID>DB_DRIFTING_DEATH_R1</ID>
+			<SourceID>DB_STUDY_TOWER</SourceID>
+			<RumorName>收集者</RumorName>
+			<Text>曼陀罗提到了一个叫做收集者的东西，但没有详细说明。</Text>
+		</RumorFact>
+
+		<ExploreFact>
+			<ID>DB_DRIFTING_DEATH_X1</ID>
+			<Text>一颗散发致命物质的神秘行星，被收容在水世界和彗星中。</Text>
+		</ExploreFact>
+	</Entry>
+
+	<Entry>
+		<ID>DB_INITIAL_CAMP</ID>
+		<Name>_最初的营地</Name>
+		<Curiosity>OUTSIDER</Curiosity>
+		<RumorFact>
+			<ID>DB_INITIAL_CAMP_R1</ID>
+			<RumorName>营地</RumorName>
+			<RumorNamePriority>0</RumorNamePriority>
+			<Text>航天飞机摧毁装置旁边的一个营地，我没有探索过。</Text>
+		</RumorFact>
+
+		<ExploreFact>
+			<ID>DB_INITIAL_CAMP_X1</ID>
+			<Text>一个名叫曼陀罗的挪麦人初次登录黑棘星并建立营地的地方。</Text>
+		</ExploreFact>
+
+		<ExploreFact>
+			<ID>DB_INITIAL_CAMP_X2</ID>
+			<Text>费尔德斯巴在这里留下了一段录音，说他四处探索，对如何进入一些地方有一些想法，如果我想，他会提供帮助。</Text>
+		</ExploreFact>
+	</Entry>
+
+</AstroObjectEntry>

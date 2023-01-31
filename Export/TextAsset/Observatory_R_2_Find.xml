@@ -1,0 +1,57 @@
+<NomaiObject>
+
+	<TextBlock>
+		<ID>1</ID>
+		<Text>曼陀罗：好了！与所莱内姆通话。希望她和费利克斯一切顺利...所以...让我们通过这架望远镜来看看，看看...这东西...是。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<Text>曼陀罗：...哈...真高兴我把那个录下来了，再次听到朋友的声音真好。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<Text>曼陀罗：我记得当时就觉得奇怪，<![CDATA[<color=lightblue>收集者</color>]]> 被遏制后， 朋友的长辈没有跟其他人一起离开，而是决定回到他们小月亮上的家。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<Text>曼陀罗：我认为他们得到了（如果他们真想离开）建造各式太空船和机器的设计图，这是遇到前星际物种时的惯例。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<Text>曼陀罗：达图拉：...不过，我不知道推动文明进行几个世纪的技术创新（在他们准备好之前）是不是一个好主意。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<Text>曼陀罗：让科技消耗一切——你的世界和你自己——的诱惑实在是太大了。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<Text>曼陀罗：看起来...朋友的长辈们艰难地学会了这一点...</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>8</ID>
+		<Text>曼陀罗：...啊！来了！现在，拍张照...</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>9</ID>
+		<Text>曼陀罗：...哦，不!</Text>
+	</TextBlock>
+
+<!--
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_NORTHERN_OBSERVATORY_X2</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+-->
+
+</NomaiObject>

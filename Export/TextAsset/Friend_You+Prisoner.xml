@@ -1,0 +1,24 @@
+<!--
+1 - 2
+|
+3
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Friend：很久以前，我们称作幽禁者的这个人，曾经是我的朋友。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>Friend：他曾经告诉我，他有多么希望通过释放眼信号的方式来纠正长老们的错误...我没意识到他是认真的！</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<Text>Friend：...我很想念他。</Text>
+	</TextBlock>
+</NomaiObject>

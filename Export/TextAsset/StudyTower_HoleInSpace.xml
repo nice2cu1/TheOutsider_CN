@@ -1,0 +1,29 @@
+<!--
+1 — 2 — 3
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>曼陀罗：坠落在余烬双星后，我看到...太空中有个奇怪的东西。其他人好像都没注意到，所以我也缄口不言。会干扰我们，呃，求生，我觉得。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>曼陀罗：我试着定位看到的东西。嘿，如果我定位到眼，我们就都能早日回归生活了！</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>曼陀罗：更新：我找到了？太空中有个球形区域，里面的星星偶尔会一闪一闪的，就好像它们是...假的？</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_STUDY_TOWER_X1</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

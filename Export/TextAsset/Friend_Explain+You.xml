@@ -1,0 +1,38 @@
+<!--
+1 - 2
+| \
+3  4 - 5
+unused: concerned that this was the Nomai’s doing, but I assured them they were like us. They would not do something like this
+unused: I do not think we are the same curious beings anymore
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Friend：你好呀！我的名字是朋友 。 ...我理解曼陀罗的语言前，他就是这么叫我的。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>Friend：曼陀罗向我解释了朋友的真实意思，问我的真实姓名时，我告诉他朋友就很好。原来的名字从来就不适合我。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<Text>Friend：我们为了寻找眼旅行到这里...但我真希望从来没有发现它。眼只是要将我们付之一炬...</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>1</ParentID>
+		<Text>Friend：这个模拟站现在就是我们的家。我们都是幽灵！我的族人们心甘情愿地腐烂了，但最小的却神秘地同时去世了。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>Friend：真希望我能懂你的语言！发生什么了？挪麦人也发生什么事了吗？</Text>
+	</TextBlock>
+
+</NomaiObject>

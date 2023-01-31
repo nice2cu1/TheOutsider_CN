@@ -1,0 +1,66 @@
+<!--
+	1
+ /  |  \
+2   4	5 - 6 - 7 - 8
+|
+3
+unused: So much grief over something that doesn’t even care back ...What a waste of life.
+unused: Good intentions aren’t the same as good reasons
+-->
+
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>曼陀罗：我来说吧。眼...其实不是我在宇宙中最喜欢的东西。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>曼陀罗：它是我们被困在这个恒星系的原因，并且我的族人还在继续寻找它，而不是寻找逃出去的办法，我们还会被一直困在这里。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>曼陀罗：在我眼里，亚罗和瑞米想要成为 Annona 那样的人，作出能和他的跃迁技术相提并论的发现。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>1</ParentID>
+		<Text>曼陀罗：我们目前所知道的就是眼比宇宙还要古老。相信眼是好事或者值得探索的纯粹是我们的一厢情愿。</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>1</ParentID>
+		<Text>曼陀罗：朋友向我透露了他们家族一个令人不安的发现：和眼交流会使整个宇宙毁灭。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>曼陀罗：朋友的...另一个朋友深信眼是善意的，他删除了这一发现，并关掉了眼信号屏蔽器之类的东西。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>曼陀罗：幸运的是，眼信号屏蔽器被重新激活，那个人被锁在了一个地窖之类的地方。朋友说他的想法是好的，但是...</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>艾斯科尔下令跃迁，结果现在... 我们都因为他而被困在这里... 只能说他的好想法还是不够好。</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<ParentID>8</ParentID>
+		<Text>曼陀罗：有时... 我真希望我能像朋友和亚罗那样，用他们看待眼的方式来看待眼... 为什么我只有我一个人对眼不感兴趣？是不是...我不太对劲？</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_BRAMBLE_VILLAGE_X3A</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

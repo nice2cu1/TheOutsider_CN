@@ -1,0 +1,22 @@
+<AstroObjectEntry>
+	<ID>QUANTUM_MOON</ID>
+
+	<Entry>
+		<ID>OUTSIDER_EYE_OTU</ID>
+		<Name>_宇宙之眼</Name>
+		<Curiosity>OUTSIDER_EYE_C</Curiosity>
+		<IsCuriosity/>
+
+		<RumorFact>
+			<ID>OUTSIDER_EYE_OTU_R1</ID>
+			<RumorName>宇宙之眼</RumorName>
+			<Text>眼，是宇宙的创造者还是毁灭者？...我应该去一探究竟吗？</Text>
+		</RumorFact>
+
+		<ExploreFact>
+			<ID>OUTSIDER_EYE_OTU_X1</ID>
+			<Text>如果你正在阅读这段话，我想你已经进入了北方天文台，并在眼看到了新的结局。非常感谢你游玩The Outsider！我希望你喜欢它！</Text>
+		</ExploreFact>
+	</Entry>
+
+</AstroObjectEntry>

@@ -1,0 +1,34 @@
+<NomaiObject>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Friend：...再见了，朋友们，一段时间内这儿就是我的家了，似乎...哦，曼陀罗，曼陀罗。又给你自己找麻烦了！哈哈。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<Text>Friend：我希望他知道我没有生他的气。我的朋友们只是试图安抚我们腐朽的长辈(他们已经决定了这一点)。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<Text>Friend：我该睡觉了，他们在等我。假设：我们还会再见，曼陀罗。别担心。</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<Text>...</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<Text>十分钟未检测到音频，录音终止</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DB_SIMULATION_HOUSE_INSIDE_X5</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>
