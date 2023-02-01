@@ -1,7 +1,7 @@
 <NomaiObject>
 	<TextBlock>
 		<ID>1</ID>
-		<Text>Friend：这是你的最新大作吗？真漂亮！这是 <![CDATA[<color=lightblue>收集者</color>]]>，对吧？</Text>
+		<Text>朋友：这是你的最新大作吗？真漂亮！这是 <![CDATA[<color=lightblue>收集者</color>]]>，对吧？</Text>
 	</TextBlock>
 
 	<TextBlock>
@@ -11,7 +11,7 @@
 
 	<TextBlock>
 		<ID>3</ID>
-		<Text>Friend：你怎么知道的？真是稀奇了！</Text>
+		<Text>朋友：你怎么知道的？真是稀奇了！</Text>
 	</TextBlock>
 
 	<TextBlock>
@@ -21,7 +21,7 @@
 
 	<TextBlock>
 		<ID>5</ID>
-		<Text>Friend：我明白了。那么<![CDATA[<color=lightblue>收集者</color>]]>的来源或形成方式发现了吗？</Text>
+		<Text>朋友：我明白了。那么<![CDATA[<color=lightblue>收集者</color>]]>的来源或形成方式发现了吗？</Text>
 	</TextBlock>
 
 	<TextBlock>
@@ -31,7 +31,7 @@
 
 	<TextBlock>
 		<ID>7</ID>
-		<Text>Friend：我当时是个小孩。我注意到一种奇怪的氛围在长老们的脸上蔓延。就好像他们知道了什么事儿，想瞒着我和其他人。</Text>
+		<Text>朋友：我当时是个小孩。我注意到一种奇怪的氛围在长老们的脸上蔓延。就好像他们知道了什么事儿，想瞒着我和其他人。</Text>
 	</TextBlock>
 
 	<TextBlock>
@@ -41,22 +41,22 @@
 
 	<TextBlock>
 		<ID>9</ID>
-		<Text>Friend：哈哈哈。所以我其他的朋友让他父母做出了解释：星系的那一边有一颗行星，一颗很坏的行星。</Text>
+		<Text>朋友：哈哈哈。所以我其他的朋友让他父母做出了解释：星系的那一边有一颗行星，一颗很坏的行星。</Text>
 	</TextBlock>
 	
 	<TextBlock>
 		<ID>10</ID>
-		<Text>Friend：它开始蒸发并且...朝我们移动，移动过程中向星系间放出了一种有毒的物质（类似一种毒气！）。</Text>
+		<Text>朋友：它开始蒸发并且...朝我们移动，移动过程中向星系间放出了一种有毒的物质（类似一种毒气！）。</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>11</ID>
-		<Text>Friend：当时，我的种族还未能星际航行（好吧，这是我瞎猜的，原文为my species was pre-interstellar，意为 前星际的物种？），无法对抗这种威胁，发出了求救信号，希望外面有人能帮忙！</Text>
+		<Text>朋友：当时，我的种族还未能星际航行（好吧，这是我瞎猜的，原文为my species was pre-interstellar，意为 前星际的物种？），无法对抗这种威胁，发出了求救信号，希望外面有人能帮忙！</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>12</ID>
-		<Text>Friend：但是那颗行星更加靠近了！这种威胁之下，我们和星系中的所有生命都要遭到毁灭。</Text>
+		<Text>朋友：但是那颗行星更加靠近了！这种威胁之下，我们和星系中的所有生命都要遭到毁灭。</Text>
 	</TextBlock>
 
 	<TextBlock>
@@ -66,7 +66,7 @@
 
 	<TextBlock>
 		<ID>14</ID>
-		<Text>Friend：什么？我不知道这回事！</Text>
+		<Text>朋友：什么？我不知道这回事！</Text>
 	</TextBlock>
 
 	<TextBlock>
@@ -76,17 +76,17 @@
 
 	<TextBlock>
 		<ID>16</ID>
-		<Text>Friend：朋友：我明白了。无论如何，我们到达安全地带后，发现这种物质遇热膨胀，但是寒冷条件下会紧密压缩，并且能被水有效地中和。</Text>
+		<Text>朋友：我明白了。无论如何，我们到达安全地带后，发现这种物质遇热膨胀，但是寒冷条件下会紧密压缩，并且能被水有效地中和。</Text>
 	</TextBlock>
 	
 	<TextBlock>
 		<ID>17</ID>
-		<Text>Friend：然后，我们等待和观察了几个星际物种，共同努力，通过将奇怪的物质收集到不同的水世界和彗星中，友好地遏制了<![CDATA[<color=lightblue>收集者</color>]]>。</Text>
+		<Text>朋友：然后，我们等待和观察了几个星际物种，共同努力，通过将奇怪的物质收集到不同的水世界和彗星中，友好地遏制了<![CDATA[<color=lightblue>收集者</color>]]>。</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>18</ID>
-		<Text>Friend：然后所有人，包括我们，各回各家。不久后眼就开始发出信号，我想知道它是不是看到了——</Text>
+		<Text>朋友：然后所有人，包括我们，各回各家。不久后眼就开始发出信号，我想知道它是不是看到了——</Text>
 	</TextBlock>
 
 	<ShipLogConditions>

@@ -12,12 +12,12 @@ unused: just because some big Eye thing is like ’hey, it’s big bang time.’
 	<TextBlock>
 		<ID>2</ID>
 		<ParentID>1</ParentID>
-		<Text>曼陀罗：所以！它比宇宙还要古老。朋友族中的一人看到的一段景象显示，如果有人与它接触或者怎样，它就会摧毁宇宙。</Text>
+		<Text>曼陀罗：所以！它比宇宙还要古老。“朋友”族中的一人看到的一段景象显示，如果有人与它接触或者怎样，它就会摧毁宇宙。</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>
 		<ParentID>2</ParentID>
-		<Text>Friend：但是如果它摧毁了之前的宇宙，我们就不得不好奇一下现在的宇宙是如何被创造出来的。或许它也创造了这个宇宙。</Text>
+		<Text>朋友：但是如果它摧毁了之前的宇宙，我们就不得不好奇一下现在的宇宙是如何被创造出来的。或许它也创造了这个宇宙。</Text>
 	</TextBlock>
 
 	<TextBlock>
@@ -28,7 +28,7 @@ unused: just because some big Eye thing is like ’hey, it’s big bang time.’
 	<TextBlock>
 		<ID>5</ID>
 		<ParentID>4</ParentID>
-		<Text>Friend：但...这是不是意味着屏蔽眼信号不是错误的？</Text>
+		<Text>朋友：但...这是不是意味着屏蔽眼信号不是错误的？</Text>
 	</TextBlock>
 
 	<TextBlock>
@@ -40,7 +40,7 @@ unused: just because some big Eye thing is like ’hey, it’s big bang time.’
 	<TextBlock>
 		<ID>7</ID>
 		<ParentID>6</ParentID>
-		<Text>Friend：嗯，我们也不能因为怕死就把它封锁起来，所以——</Text>
+		<Text>朋友：嗯，我们也不能因为怕死就把它封锁起来，所以——</Text>
 	</TextBlock>
 
 	<TextBlock>

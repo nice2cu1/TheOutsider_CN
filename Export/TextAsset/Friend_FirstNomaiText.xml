@@ -7,13 +7,13 @@
 <NomaiObject>
 	<TextBlock>
 		<ID>1</ID>
-		<Text>Friend：...Can you read this?</Text>
+		<Text>朋友：...你认识这个?</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>2</ID>
 		<ParentID>1</ParentID>
-		<Text>Friend：Ah, hello. Uh, give me a little while, please.</Text>
+		<Text>朋友：哦！你好！请给我一点时间。</Text>
 	</TextBlock>
 
 	<ShipLogConditions>

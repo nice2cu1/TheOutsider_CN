@@ -2,49 +2,49 @@
 1 - 2 - 4 - 5 - 6 - 7 - 8
 
 unused: where it was thought he could do no harm
-Friend：I would ask you to try free him, but I imagine there’s not much point...
+朋友：I would ask you to try free him, but I imagine there’s not much point...
 -->
 
 <NomaiObject>
 	<TextBlock>
 		<ID>1</ID>
-		<Text>Friend：我的一个朋友放出了眼的信号，被监禁在这个模拟世界里。</Text>
+		<Text>朋友：我的一个朋友放出了眼的信号，被监禁在这个模拟世界里。</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
 		<ParentID>1</ParentID>
-		<Text>Friend：已经过去了很久，挪麦人到达的时候所有的长老们都已经死亡进入了模拟，只有最年轻的那些的还活在外界。</Text>
+		<Text>朋友：已经过去了很久，挪麦人到达的时候所有的长老们都已经死亡进入了模拟，只有最年轻的那些的还活在外界。</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>
 		<ParentID>2</ParentID>
-		<Text>Friend：听到挪麦人到达的消息时，那些死去的长老们...烧毁了档案室中存放的幽禁者牢笼的密码。</Text>
+		<Text>朋友：听到挪麦人到达的消息时，那些死去的长老们...烧毁了档案室中存放的幽禁者牢笼的密码。</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>4</ID>
 		<ParentID>3</ParentID>
-		<Text>Friend：我曾想把他救出来！并且外界活着的人也愿意助我一臂之力！我们不都是怪物，希望你能相信我。但是...我们发现已经无能为力了。</Text>
+		<Text>朋友：我曾想把他救出来！并且外界活着的人也愿意助我一臂之力！我们不都是怪物，希望你能相信我。但是...我们发现已经无能为力了。</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>5</ID>
 		<ParentID>4</ParentID>
-		<Text>Friend：将幽禁者所在的沉没的构筑物从水下升起的控制装置不知何时被我们的一位长老破坏了。</Text>
+		<Text>朋友：将幽禁者所在的沉没的构筑物从水下升起的控制装置不知何时被我们的一位长老破坏了。</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>6</ID>
 		<ParentID>5</ParentID>
-		<Text>Friend：从外界将它升起也会同时将模拟世界中的构筑物升起，这样就能从模拟中进入地下了（也能让我们的幽禁者得救后跟其他人团聚了）。</Text>
+		<Text>朋友：从外界将它升起也会同时将模拟世界中的构筑物升起，这样就能从模拟中进入地下了（也能让我们的幽禁者得救后跟其他人团聚了）。</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>7</ID>
 		<ParentID>6</ParentID>
-		<Text>Friend：所以，即使我们将他从储藏库里救出来，他还是会被困在地下...就这样...我再也没有见过他了。</Text>
+		<Text>朋友：所以，即使我们将他从储藏库里救出来，他还是会被困在地下...就这样...我再也没有见过他了。</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>8</ID>
 		<ParentID>7</ParentID>
-		<Text>Friend：我试着不去想他经历了什么...这样说并不轻松，但是我希望他已...我希望他已经不在人世了。要不然糟糕得多。</Text>
+		<Text>朋友：我试着不去想他经历了什么...这样说并不轻松，但是我希望他已...我希望他已经不在人世了。要不然糟糕得多。</Text>
 	</TextBlock>
 
 	<ShipLogConditions>

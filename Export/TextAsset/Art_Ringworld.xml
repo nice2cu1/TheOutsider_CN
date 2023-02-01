@@ -5,19 +5,19 @@
 <NomaiObject>
 	<TextBlock>
 		<ID>1</ID>
-		<Text>Friend：这是家。</Text>
+		<Text>朋友：这是家。</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>2</ID>
 		<ParentID>1</ParentID>
-		<Text>Friend：感觉失落。我没有画完。已经足够好了。</Text>
+		<Text>朋友：感觉失落。我没有画完。已经足够好了。</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>3</ID>
 		<ParentID>2</ParentID>
-		<Text>Friend：这是奇特的星系，更多奇特的生物。我希望其他人还没腐朽，还能够见到你。</Text>
+		<Text>朋友：这是奇特的星系，更多奇特的生物。我希望其他人还没腐朽，还能够见到你。</Text>
 	</TextBlock>
 
 </NomaiObject>

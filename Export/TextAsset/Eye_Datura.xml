@@ -22,7 +22,7 @@ unused: Good intentions aren’t the same as good reasons
 	<TextBlock>
 		<ID>3</ID>
 		<ParentID>2</ParentID>
-		<Text>曼陀罗：在我眼里，亚罗和瑞米想要成为 Annona 那样的人，作出能和他的跃迁技术相提并论的发现。</Text>
+		<Text>曼陀罗：在我眼里，亚罗和瑞米想要成为安诺纳那样的人，作出能和他的跃迁技术相提并论的发现。</Text>
 	</TextBlock>
 
 	<TextBlock>
@@ -34,17 +34,17 @@ unused: Good intentions aren’t the same as good reasons
 	<TextBlock>
 		<ID>5</ID>
 		<ParentID>1</ParentID>
-		<Text>曼陀罗：朋友向我透露了他们家族一个令人不安的发现：和眼交流会使整个宇宙毁灭。</Text>
+		<Text>曼陀罗：“朋友”向我透露了他们家族一个令人不安的发现：和眼交流会使整个宇宙毁灭。</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>6</ID>
 		<ParentID>5</ParentID>
-		<Text>曼陀罗：朋友的...另一个朋友深信眼是善意的，他删除了这一发现，并关掉了眼信号屏蔽器之类的东西。</Text>
+		<Text>曼陀罗：“朋友”的...另一个朋友深信眼是善意的，他删除了这一发现，并关掉了眼信号屏蔽器之类的东西。</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>7</ID>
 		<ParentID>6</ParentID>
-		<Text>曼陀罗：幸运的是，眼信号屏蔽器被重新激活，那个人被锁在了一个地窖之类的地方。朋友说他的想法是好的，但是...</Text>
+		<Text>曼陀罗：幸运的是，眼信号屏蔽器被重新激活，那个人被锁在了一个地窖之类的地方。“朋友”说他的想法是好的，但是...</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>8</ID>
@@ -54,7 +54,7 @@ unused: Good intentions aren’t the same as good reasons
 	<TextBlock>
 		<ID>9</ID>
 		<ParentID>8</ParentID>
-		<Text>曼陀罗：有时... 我真希望我能像朋友和亚罗那样，用他们看待眼的方式来看待眼... 为什么我只有我一个人对眼不感兴趣？是不是...我不太对劲？</Text>
+		<Text>曼陀罗：有时... 我真希望我能像“朋友”和亚罗那样，用他们看待眼的方式来看待眼... 为什么我只有我一个人对眼不感兴趣？是不是...我不太对劲？</Text>
 	</TextBlock>
 
 	<ShipLogConditions>

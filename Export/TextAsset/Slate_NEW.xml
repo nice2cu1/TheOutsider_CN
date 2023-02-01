@@ -155,7 +155,7 @@
     <DialogueNode>
     	<Name>ScientistAnswer25</Name>
     	<Dialogue>
-    		<Page>If you have any goodbyes to say, better say ’em now. I think your朋友Hal is in the observatory waiting to see you off.</Page>
+    		<Page>If you have any goodbyes to say, better say ’em now. I think your friend Hal is in the observatory waiting to see you off.</Page>
     		<Page>Oh, and Gossan says they have the zero-g chamber set up if you want a refresher on making ship repairs in space. Not saying you <![CDATA[<i>]]>have<![CDATA[</i>]]> to, but uh, it’d help get Gossan off my back if you did.</Page>
     	</Dialogue>
     	<RevealFacts><FactID>TH_ZERO_G_CAVE_R1</FactID></RevealFacts>

@@ -102,7 +102,7 @@
 
 		<ExploreFact>
 			<ID>DB_BRAMBLE_VILLAGE_X1</ID>
-			<Text>曼陀罗教朋友挪麦语，他们教他艺术。</Text>
+			<Text>曼陀罗教“朋友”挪麦语，他们教他艺术。</Text>
 		</ExploreFact>
 		
 		<ExploreFact>
@@ -139,7 +139,7 @@
 			</ExploreFact>
 			<ExploreFact>
 				<ID>DB_SECRET_ROOM_X2</ID>
-				<Text>曼陀罗和朋友讨论了他们关于眼的理解，并提出他们的理解或多或少是正确的。</Text>
+				<Text>曼陀罗和“朋友”讨论了他们关于眼的理解，并提出他们的理解或多或少是正确的。</Text>
 			</ExploreFact>
 		</Entry>
 	</Entry>

@@ -23,7 +23,7 @@
 	<TextBlock>
 		<ID>4</ID>
 		<ParentID>3</ParentID>
-		<Text>Friend：说话对我来说相同难，不止你要学习。</Text>
+		<Text>朋友：说话对我来说相同难，不止你要学习。</Text>
 	</TextBlock>
 
 	<TextBlock>
@@ -35,7 +35,7 @@
 	<TextBlock>
 		<ID>6</ID>
 		<ParentID>5</ParentID>
-		<Text>Friend：WTF？？？\\n（原为What？被绕晕？我觉得！所以：改成了WTF。）</Text>
+		<Text>朋友：WTF？？？\\n（原为What？被绕晕？我觉得！所以：改成了WTF。）</Text>
 	</TextBlock>
 
 	<ShipLogConditions>

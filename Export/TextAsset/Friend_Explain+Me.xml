@@ -7,37 +7,37 @@
 <NomaiObject>
 	<TextBlock>
 		<ID>1</ID>
-		<Text>Friend：你现在在我的故乡星系！（对它的模拟）</Text>
+		<Text>朋友：你现在在我的故乡星系！（对它的模拟）</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>2</ID>
 		<ParentID>1</ParentID>
-		<Text>Friend：我很好奇，你怎么来这的？你是从外面那个星系来的吗？还是像我们一样来自别的地方？</Text>
+		<Text>朋友：我很好奇，你怎么来这的？你是从外面那个星系来的吗？还是像我们一样来自别的地方？</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>3</ID>
 		<ParentID>1</ParentID>
-		<Text>Friend：在这别见外！你喜欢待多久就待多久...不过，我会避开其他人的。</Text>
+		<Text>朋友：在这别见外！你喜欢待多久就待多久...不过，我会避开其他人的。</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>4</ID>
 		<ParentID>1</ParentID>
-		<Text>Friend：这是为了我们寻找新家的那段时间建造的。不过随着时间的推移，我们中越来越多人（老人们）无法挽回地陷入了这种模拟。</Text>
+		<Text>朋友：这是为了我们寻找新家的那段时间建造的。不过随着时间的推移，我们中越来越多人（老人们）无法挽回地陷入了这种模拟。</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>5</ID>
 		<ParentID>4</ParentID>
-		<Text>Friend：挪麦人到达的时候，模拟外还活着的人已经非常少了（主要是是年轻人）。</Text>
+		<Text>朋友：挪麦人到达的时候，模拟外还活着的人已经非常少了（主要是是年轻人）。</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>6</ID>
 		<ParentID>5</ParentID>
-		<Text>Friend：之后，腐朽的长老们提议悄悄观察挪麦人，以防眼被找到。</Text>
+		<Text>朋友：之后，腐朽的长老们提议悄悄观察挪麦人，以防眼被找到。</Text>
 	</TextBlock>
 
 
