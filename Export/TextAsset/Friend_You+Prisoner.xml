@@ -13,12 +13,12 @@
 	<TextBlock>
 		<ID>2</ID>
 		<ParentID>1</ParentID>
-		<Text>朋友：他曾经告诉我，他有多么希望通过释放眼信号的方式来纠正长老们的错误...我没意识到他是认真的！</Text>
+		<Text>朋友：他曾经告诉我，他有多么希望通过释放眼信号的方式来纠正前辈们的错误……我没意识到他是认真的！</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>3</ID>
 		<ParentID>1</ParentID>
-		<Text>朋友：...我很想念他。</Text>
+		<Text>朋友：……我很想念他。</Text>
 	</TextBlock>
 </NomaiObject>

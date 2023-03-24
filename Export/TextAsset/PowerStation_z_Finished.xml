@@ -7,12 +7,12 @@
 <NomaiObject>
 	<TextBlock>
 		<ID>1</ID>
-		<Text>曼陀罗：芜湖！终于建完了这座愚蠢的太空站！</Text>
+		<Text>曼陀罗：芜湖！终于建完这座愚蠢的太空站了！</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
 		<ParentID>1</ParentID>
-		<Text>曼陀罗：没有你的帮助是做不到的，“朋友”！（还有你的飞船！）</Text>
+		<Text>曼陀罗：没有你的帮助我是做不到的，“朋友”！（还有你的飞船！）</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>

@@ -1,5 +1,5 @@
 <!--
-1 - 2 - 3 - 4 - 5 - ...
+1 - 2 - 3 - 4 - 5 - ……
 -->
 
 <NomaiObject>
@@ -17,7 +17,7 @@
 	<TextBlock>
 		<ID>3</ID>
 		<ParentID>2</ParentID>
-		<Text>曼陀罗：等下，让我...呃，能把我接回碎空星吗，比如...现在？</Text>
+		<Text>曼陀罗：等下，让我……呃，能把我接回碎空星吗，比如……现在？</Text>
 	</TextBlock>
 
 	<TextBlock>
@@ -30,7 +30,7 @@
 	<TextBlock>
 		<ID>5</ID>
 		<ParentID>4</ParentID>
-		<Text>曼陀罗：已经去了？！但是...我们计划等她回来的时候在重力炮见面。</Text>
+		<Text>曼陀罗：已经去了？！但是……我们计划等她回来的时候在重力炮见面。</Text>
 	</TextBlock>
 
 	<TextBlock>
@@ -50,7 +50,7 @@
 	<TextBlock>
 		<ID>8</ID>
 		<ParentID>7</ParentID>
-		<Text>曼陀罗：哦，好，拜托你了。呃...告诉她希望她玩得开心，还有我爱她，还有她...在第六个位置应该利用好时间把一切搞清楚...或许提一下航天飞机的状况，这样她就知道不用着急了。</Text>
+		<Text>曼陀罗：哦，好，拜托你了。呃……告诉她希望她玩得开心，还有我爱她，还有她……在第六个位置应该利用好时间把一切搞清楚……或许提一下航天飞机的状况，这样她就知道不用着急了。</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>9</ID>
@@ -62,32 +62,32 @@
 	<TextBlock>
 		<ID>10</ID>
 		<ParentID>9</ParentID>
-		<Text>曼陀罗：...呃，还有，你们给费利克斯发消息要多久？</Text>
+		<Text>曼陀罗：……呃，还有，你们给费利克斯发消息要多久？</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>11</ID>
 		<ParentID>10</ParentID>
 		<LocationB/>
-		<Text>贝尔斯：嗯... 她在碎空星学校教书对吧？那么：相当快。你要跟她说什么？</Text>
+		<Text>贝尔斯：嗯…… 她在碎空星学校教书对吧？那么：相当快。你要跟她说什么？</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>12</ID>
 		<ParentID>11</ParentID>
-		<Text>曼陀罗：...就是告诉她，我很抱歉...对所有的事。而且...很快就会回去。</Text>
+		<Text>曼陀罗：……就是告诉她，我很抱歉……对所有的事。而且……很快就会回去。</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>13</ID>
 		<ParentID>12</ParentID>
 		<LocationB/>
-		<Text>贝尔斯：好的，会发过去的。 ...还有别的消息吗，曼陀罗？</Text>
+		<Text>贝尔斯：好的，会发过去的。 ……还有别的消息吗，曼陀罗？</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>14</ID>
 		<ParentID>13</ParentID>
-		<Text>曼陀罗：哈哈，没了，就这些...谢谢你，贝尔斯。</Text>
+		<Text>曼陀罗：哈哈，没了，就这些……谢谢你，贝尔斯。</Text>
 	</TextBlock>
 
 	<ShipLogConditions>

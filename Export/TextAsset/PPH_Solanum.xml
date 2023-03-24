@@ -1,5 +1,5 @@
 <!--
-1 - 2 - 3 - 4 - 5 - ...
+1 - 2 - 3 - 4 - 5 - ……
 -->
 
 <NomaiObject>
@@ -11,55 +11,55 @@
 	<TextBlock>
 		<ID>2</ID>
 		<ParentID>1</ParentID>
-		<Text>曼陀罗：对不起，小所，我...经历了一些事。所以...你量子朝圣的日子就要到了，对吧？</Text>
+		<Text>曼陀罗：对不起，小所，我……经历了一些事。所以……你量子朝圣的日子就要到了，对吧？</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<LocationB/>
-		<Text>所莱内姆：...对...</Text>
+		<Text>所莱内姆：……对……</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>4</ID>
 		<ParentID>3</ParentID>
-		<Text>曼陀罗：...你激动吗?</Text>
+		<Text>曼陀罗：……你激动吗?</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<LocationB/>
-		<Text>所莱内姆：呃...就是...你为什么还留在那？你已经找到飞船了，那是你的任务对吧？所以为什么还不回来？你是不是...你是不是...讨厌我？</Text>
+		<Text>所莱内姆：呃……就是……你为什么还留在那？你已经找到飞船了，那是你的任务对吧？所以为什么还不回来？你是不是……你是不是……讨厌我？</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>6</ID>
 		<ParentID>5</ParentID>
-		<Text>曼陀罗：...亲爱的，当然不会。不是因为你...是别的挪麦人。我们相处得不太好而且我怕他们...怕我回去时他们谈论我或会对我说的话...</Text>
+		<Text>曼陀罗：……亲爱的，当然不会。不是因为你……是别的挪麦人。我们相处得不太好而且我怕他们……怕我回去时他们谈论我或会对我说的话……</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>7</ID>
 		<ParentID>6</ParentID>
 		<LocationB/>
-		<Text>所莱内姆：他们又不是怪兽，老爸，你确定你害怕的是别的挪麦人？...还是担心我、费利克斯和亚罗？</Text>
+		<Text>所莱内姆：他们又不是怪兽，老爸，你确定你害怕的是别的挪麦人？……还是担心我、费利克斯和亚罗？</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>8</ID>
 		<ParentID>7</ParentID>
-		<Text>曼陀罗：...</Text>
+		<Text>曼陀罗：……</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>9</ID>
 		<ParentID>8</ParentID>
 		<LocationB/>
-		<Text>所莱内姆：因为...你与别的挪麦人之间的共同点比你想得要多。</Text>
+		<Text>所莱内姆：因为……你与别的挪麦人之间的共同点比你想得要多。</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>10</ID>
 		<ParentID>9</ParentID>
-		<Text>曼陀罗：...有吗?</Text>
+		<Text>曼陀罗：……有吗?</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>11</ID>
@@ -71,7 +71,7 @@
 	<TextBlock>
 		<ID>12</ID>
 		<ParentID>11</ParentID>
-		<Text>曼陀罗：...等等，真的?</Text>
+		<Text>曼陀罗：……等等，真的?</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>13</ID>
@@ -108,12 +108,12 @@
 		<ID>18</ID>
 		<ParentID>17</ParentID>
 		<LocationB/>
-		<Text>所莱内姆：呃...听起来不错！不过，我还以为你不会在意量子卫星。</Text>
+		<Text>所莱内姆：呃……听起来不错！不过，我还以为你不会在意量子卫星。</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>19</ID>
 		<ParentID>18</ParentID>
-		<Text>曼陀罗：呃...我的问题是关于眼的。量子卫星在我看来还不错。</Text>
+		<Text>曼陀罗：呃……我的问题是关于眼的。量子卫星在我看来还不错。</Text>
 	</TextBlock>
 
 	<TextBlock>
@@ -126,7 +126,7 @@
 	<TextBlock>
 		<ID>21</ID>
 		<ParentID>20</ParentID>
-		<Text>曼陀罗：回见——朋友是他的名字，他不是想象的！...到时候见，亲爱的，爱你！</Text>
+		<Text>曼陀罗：回见——朋友是他的名字，他不是想象的！……到时候见，亲爱的，爱你！</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>22</ID>

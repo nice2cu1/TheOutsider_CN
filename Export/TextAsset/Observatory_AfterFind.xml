@@ -14,18 +14,18 @@
 	<TextBlock>
 		<ID>2</ID>
 		<ParentID>1</ParentID>
-		<Text>曼陀罗：这是不可能...</Text>
+		<Text>曼陀罗：这是不可能……</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>3</ID>
 		<ParentID>1</ParentID>
-		<Text>曼陀罗：好吧，好吧...我吓坏了！当这东西（坏事做尽的闯入者）离太阳太近的时候...</Text>
+		<Text>曼陀罗：好吧，好吧……我吓坏了！当这东西（坏事做尽的闯入者）离太阳太近的时候……</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>4</ID>
 		<ParentID>1</ParentID>
-		<Text>曼陀罗：我...我必须马上警告其他人！快...快去投影池！</Text>
+		<Text>曼陀罗：我……我必须马上警告其他人！快……快去投影池！</Text>
 	</TextBlock>
 </NomaiObject>

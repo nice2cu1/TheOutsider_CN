@@ -3,13 +3,13 @@
 
 	<Entry>
 		<ID>DB_NORTHERN_OBSERVATORY</ID>
-		<Name>_北部天文台</Name>
+		<Name>北部天文台</Name>
 		<Curiosity>OUTSIDER</Curiosity>
 		<IsCuriosity/>
 
 		<RumorFact>
 			<ID>DB_NORTHERN_OBSERVATORY_R1</ID>
-			<RumorName>_北部天文台</RumorName>
+			<RumorName>北部天文台</RumorName>
 			<RumorNamePriority>1</RumorNamePriority>
 			<Text>在黑棘星表面的北极有个天文台，因为安全措施的缘故，入口保持关闭状态。</Text>
 		</RumorFact>
@@ -23,7 +23,7 @@
 
 		<ExploreFact>
 			<ID>DB_NORTHERN_OBSERVATORY_X1</ID>
-			<Text>我找到了曼陀罗的尸体...</Text>
+			<Text>我找到了曼陀罗的尸体……</Text>
 		</ExploreFact>
 <!--
 		<ExploreFact>
@@ -43,7 +43,7 @@
 
 	<Entry>
 		<ID>DB_STUDY_TOWER</ID>
-		<Name>_研究塔</Name>
+		<Name>研究塔</Name>
 		<Curiosity>OUTSIDER</Curiosity>
 
 		<ExploreFact>
@@ -62,7 +62,7 @@
 
 		<Entry>
 			<ID>DB_STUDY_TOWER_TOP</ID>
-			<Name>_塔顶</Name>
+			<Name>塔顶</Name>
 			<Curiosity>OUTSIDER</Curiosity>
 
 			<RumorFact>
@@ -71,7 +71,7 @@
 			</RumorFact>
 			<RumorFact>
 				<ID>DB_STUDY_TOWER_TOP_R2</ID>
-				<Text>透过窗户，我看到一面写着挪麦文字的钱墙。</Text>
+				<Text>透过窗户，我看到一面写着挪麦文字的墙。</Text>
 			</RumorFact>
 
 			<ExploreFact>
@@ -83,7 +83,7 @@
 
 	<Entry>
 		<ID>DB_BRAMBLE_VILLAGE</ID>
-		<Name>_荆棘小屋</Name>
+		<Name>荆棘小屋</Name>
 		<Curiosity>OUTSIDER</Curiosity>
 		<RumorFact>
 			<ID>DB_BRAMBLE_VILLAGE_R1</ID>
@@ -102,7 +102,7 @@
 
 		<ExploreFact>
 			<ID>DB_BRAMBLE_VILLAGE_X1</ID>
-			<Text>曼陀罗教“朋友”挪麦语，他们教他艺术。</Text>
+			<Text>曼陀罗教朋友挪麦语，他们教他艺术。</Text>
 		</ExploreFact>
 		
 		<ExploreFact>
@@ -124,11 +124,11 @@
 		
 		<Entry>
 			<ID>DB_SECRET_ROOM</ID>
-			<Name>_密室</Name>
+			<Name>密室</Name>
 			<Curiosity>OUTSIDER</Curiosity>
 
 			<RumorFact>
-				<RumorName>_密室</RumorName>
+				<RumorName>密室</RumorName>
 				<ID>DB_SECRET_ROOM_R1</ID>
 				<Text>在朋友的家里，我发现了一段楼梯，陡然向下通向一幅内陆星球的画作，天空中有一个蓝色的环形气态行星。</Text>
 			</RumorFact>
@@ -139,14 +139,14 @@
 			</ExploreFact>
 			<ExploreFact>
 				<ID>DB_SECRET_ROOM_X2</ID>
-				<Text>曼陀罗和“朋友”讨论了他们关于眼的理解，并提出他们的理解或多或少是正确的。</Text>
+				<Text>曼陀罗和朋友讨论了他们关于眼的理解，并提出他们的理解或多或少是正确的。</Text>
 			</ExploreFact>
 		</Entry>
 	</Entry>
 
 	<Entry>
 		<ID>DB_SIMULATION_HOUSE</ID>
-		<Name>_与世隔绝的建筑</Name>
+		<Name>与世隔绝的建筑</Name>
 		<Curiosity>OUTSIDER</Curiosity>
 		
 		<RumorFact>
@@ -167,17 +167,17 @@
 
 		<Entry>
 			<ID>DB_SIMULATION_HOUSE_INSIDE</ID>
-			<Name>_只能炸开的内容（建筑内部）</Name>
+			<Name>建筑内部</Name>
 			<Curiosity>OUTSIDER</Curiosity>
 			<RumorFact>
 				<ID>DB_SIMULATION_HOUSE_INSIDE_R1</ID>
-				<RumorName>密封入口</RumorName>
+				<RumorName>封锁住的入口</RumorName>
 				<Text>这座大楼的入口处似乎已经被封锁了。曼陀罗的理论认为，只有爆炸才能制造出一个缺口。</Text>
 			</RumorFact>
 
 			<ExploreFact>
 				<ID>DB_SIMULATION_HOUSE_INSIDE_X1</ID>
-				<Text>我找到了...朋友的遗体，在青色火焰旁，手持文物。</Text>
+				<Text>我找到了朋友的遗体，在青色火焰旁，手持文物。</Text>
 			</ExploreFact>
 			<ExploreFact>
 				<ID>DB_SIMULATION_HOUSE_INSIDE_X2</ID>
@@ -202,7 +202,7 @@
 
 	<Entry>
 		<ID>DB_SHUTTLE_CRUSHER</ID>
-		<Name>_航天飞机摧毁装置</Name>
+		<Name>飞船摧毁装置</Name>
 		<Curiosity>OUTSIDER</Curiosity>
 
 		<RumorFact>
@@ -214,11 +214,11 @@
 
 		<ExploreFact>
 			<ID>DB_SHUTTLE_CRUSHER_X1</ID>
-			<Text>一个名叫曼陀罗的挪麦人创造了这个来摧毁他的航天飞机。在损坏航天飞机后，它的警报响起，并在一段时间后爆炸。</Text>
+			<Text>一个名叫曼陀罗的挪麦人创造了这个来摧毁他的飞船的装置。激活摧毁装置后，飞船会发出警报，并在短时间内发生爆炸</Text>
 		</ExploreFact>
 		<ExploreFact>
 			<ID>DB_SHUTTLE_CRUSHER_X2</ID>
-			<Text>一个被称为朋友的人也想摧毁飞船。在损坏了他们的飞船后，警报也响起了。曼陀罗记得，他应该站的远远的等待飞船爆炸。</Text>
+			<Text>一个被称为朋友的人也想摧毁飞船。在损坏了他们的飞船后，警报也响起了。曼陀罗认为，他应该站的远远的等待飞船爆炸。</Text>
 		</ExploreFact>
 		<ExploreFact>
 			<ID>DB_SHUTTLE_CRUSHER_X3</ID>
@@ -226,18 +226,18 @@
 		</ExploreFact>
 		<ExploreFact>
 			<ID>DB_SHUTTLE_CRUSHER_X4</ID>
-			<Text>在一段录音中，曼陀罗 向他的女儿所莱内姆讲述了有关飞船坠毁的事。</Text>
+			<Text>在一段录音中，曼陀罗向他的女儿所莱内姆讲述了有关飞船坠毁的事。</Text>
 		</ExploreFact>
 	</Entry>
 
 	<Entry>
 		<ID>DB_PROJECTION_POOL_HOUSE</ID>
-		<Name>_投影池室</Name>
+		<Name>投影池室</Name>
 		<Curiosity>OUTSIDER</Curiosity>
 		<RumorFact>
 			<ID>DB_PROJECTION_POOL_HOUSE_R1</ID>
 			<SourceID>DB_STUDY_TOWER</SourceID>
-			<RumorName>缺少投影池</RumorName>
+			<RumorName>投影池室</RumorName>
 			<RumorNamePriority>1</RumorNamePriority>
 			<Text>研究塔旁边建筑物似乎已经断裂并坠落到星球某处。</Text>
 		</RumorFact>
@@ -260,12 +260,12 @@
 		
 		<ExploreFact>
 			<ID>DB_PROJECTION_POOL_HOUSE_X3</ID>
-			<Text>在一块受损的石头上，曼陀罗打电话给其他人，警告他们有事情要做。但是，他们已经知道这件事了。</Text>
+			<Text>在一块受损的投影石上，曼陀罗试图警告他们注意彗星。但是，他们已经知道这件事了。</Text>
 		</ExploreFact>
 		<ExploreFact>
 			<ID>DB_PROJECTION_POOL_HOUSE_X3_ATP</ID>
 			<IgnoreMoreToExplore/>
-			<Text>在这块完好无损的石头里，曼陀罗试图警告其他人注意入侵者。但是，他们已经知道这件事了。</Text>
+			<Text>在一块块完好投影石上，曼陀罗试图警告他们注意彗星。但是，他们已经知道这件事了。</Text>
 		</ExploreFact>
 
 		<ExploreFact>
@@ -277,19 +277,19 @@
 
 	<Entry>
 		<ID>DB_HUNTING_BLIND</ID>
-		<Name>_狩猎小屋</Name>
+		<Name>鮟鱇鱼狩猎小屋</Name>
 		<Curiosity>OUTSIDER</Curiosity>
 
 		<RumorFact>
 			<ID>DB_HUNTING_BLIND_R1</ID>
 			<SourceID>DB_INITIAL_CAMP</SourceID>
 			<RumorName>鮟鱇鱼狩猎小屋</RumorName>
-			<Text>曼陀罗需要食物来源，考虑吃... 鮟鱇鱼。</Text>
+			<Text>曼陀罗需要食物来源，他打算对鮟鱇鱼下手。</Text>
 		</RumorFact>
 
 		<ExploreFact>
 			<ID>DB_HUNTING_BLIND_X1</ID>
-			<Text>曼陀罗去探索黑棘星深处，部分原因是为了寻找... 食物。</Text>
+			<Text>曼陀罗去探索黑棘星深处，部分原因是为了寻找食物。</Text>
 		</ExploreFact>
 
 		<ExploreFact>
@@ -303,19 +303,19 @@
 
 		<ExploreFact>
 			<ID>DB_HUNTING_BLIND_X3</ID>
-			<Text>曼陀罗找到了3号逃生舱上的挪麦人和他的家族领袖艾斯科尔的遗骸</Text>
+			<Text>曼陀罗找到了3号逃生舱上的挪麦人和他的家族领袖艾斯科尔的遗骸。</Text>
 		</ExploreFact>
 	</Entry>
 
 	<Entry>
 		<ID>DB_DRIFTING_DEATH</ID>
-		<Name>收集者壁画</Name>
+		<Name>壁画</Name>
 		<Curiosity>OUTSIDER</Curiosity>
 
 		<RumorFact>
 			<ID>DB_DRIFTING_DEATH_R1</ID>
 			<SourceID>DB_STUDY_TOWER</SourceID>
-			<RumorName>收集者</RumorName>
+			<RumorName>壁画</RumorName>
 			<Text>曼陀罗提到了一个叫做收集者的东西，但没有详细说明。</Text>
 		</RumorFact>
 
@@ -327,13 +327,13 @@
 
 	<Entry>
 		<ID>DB_INITIAL_CAMP</ID>
-		<Name>_最初的营地</Name>
+		<Name>最初的营地</Name>
 		<Curiosity>OUTSIDER</Curiosity>
 		<RumorFact>
 			<ID>DB_INITIAL_CAMP_R1</ID>
-			<RumorName>营地</RumorName>
+			<RumorName>最初的营地</RumorName>
 			<RumorNamePriority>0</RumorNamePriority>
-			<Text>航天飞机摧毁装置旁边的一个营地，我没有探索过。</Text>
+			<Text>飞船摧毁装置旁边的一个营地。</Text>
 		</RumorFact>
 
 		<ExploreFact>
@@ -343,7 +343,7 @@
 
 		<ExploreFact>
 			<ID>DB_INITIAL_CAMP_X2</ID>
-			<Text>费尔德斯巴在这里留下了一段录音，说他四处探索，对如何进入一些地方有一些想法，如果我想，他会提供帮助。</Text>
+			<Text>费尔德斯巴在这里留下了一段录音，说他四处探索，对如何进入某些地方有一些想法，如果我想，他会提供帮助。</Text>
 		</ExploreFact>
 	</Entry>
 

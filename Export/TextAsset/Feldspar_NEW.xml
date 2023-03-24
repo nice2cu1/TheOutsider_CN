@@ -14,7 +14,7 @@
 <!--
 				<RequiredPersistentCondition>MetFeldspar</RequiredPersistentCondition>
 -->
-				<Text>_Hey, can I ask you something real quick?</Text>
+				<Text>_嘿，我能快速问你一些事情吗？</Text>
 				<DialogueTarget>FeldsparSkip</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
@@ -35,7 +35,7 @@
 	<DialogueNode>
 		<Name>Feldspar2</Name>
 		<Dialogue>
-			<Page>...You never were the brightest hatchling, were you.</Page>
+			<Page>……You never were the brightest hatchling, were you.</Page>
 			<Page>Yeah, that’s right, I’m alive. Been camping out here since my ship, uh, y’know. Crashed.<![CDATA[<Pause>]]> Violently.</Page>
 		</Dialogue>
 		<DialogueOptionsList>
@@ -96,7 +96,7 @@
 	<DialogueNode>
 		<Name>Feldspar4a</Name>
 		<Dialogue>
-			<Page>Haha, you flatter me!<![CDATA[<Pause>]]> ...I <![CDATA[<i>like</i>]]> it!</Page>
+			<Page>Haha, you flatter me!<![CDATA[<Pause>]]> ……I <![CDATA[<i>like</i>]]> it!</Page>
 		</Dialogue>
 		<DialogueTarget>Feldspar5a</DialogueTarget>
 	</DialogueNode>
@@ -112,14 +112,14 @@
 	<DialogueNode>
 		<Name>Feldspar5</Name>
 		<Dialogue>
-			<Page>...well, like I said, I crash. Blammo! On impact, my ship starts making noises like it’s coming apart from the inside, and I think, well, that ain’t great. Sure enough, I barely get out of there before the electrical systems start sparking like crazy.</Page>
+			<Page>……well, like I said, I crash. Blammo! On impact, my ship starts making noises like it’s coming apart from the inside, and I think, well, that ain’t great. Sure enough, I barely get out of there before the electrical systems start sparking like crazy.</Page>
 			<Page>It’s either move fast or die unpleasantly, so I had to put a little distance between me and my poor, fried ship.</Page>
 			<Page>I camped out near where I crashed at first. I found this skeleton later — great find, would’ve been stupid not to use it.</Page>
 			<Page>So I moved my setup over here and planted my emergency tree seeds. Been here ever since!</Page>
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
-				<Text>...Wow.</Text>
+				<Text>……Wow.</Text>
 				<DialogueTarget>Feldspar6a</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
@@ -142,7 +142,7 @@
 		<Dialogue>
 			<Page>_My story goes like this. I’d just finished exploring the core of Giant’s Deep, and I wanted to try my hand at Dark Bramble, seeing as no one had ever been inside before.</Page>
 			<Page>Getting around in Dark Bramble was easy, mind you. Once you’ve dodged one massive, interdimensional vine bristling with thorns, you’ve dodged ’em all.</Page>
-			<Page>But after a while, I run into this huge anglerfish — you’ve seen ’em? Big gnarly things, and this was the biggest one I’ve ever seen. I pull a few stunts, try to shake the thing off — nothing too fancy. I’m going full-speed when the fish clips me, knocks me into a vine, and...</Page>
+			<Page>But after a while, I run into this huge anglerfish — you’ve seen ’em? Big gnarly things, and this was the biggest one I’ve ever seen. I pull a few stunts, try to shake the thing off — nothing too fancy. I’m going full-speed when the fish clips me, knocks me into a vine, and……</Page>
 		</Dialogue>
 		<DialogueTarget>Feldspar5</DialogueTarget>
 	</DialogueNode>
@@ -152,7 +152,7 @@
 		<Dialogue>
 			<Page>Oh, this is a good story. I’d just finished exploring the core of Giant’s Deep and needed a new challenge, and none of us had ever been inside Dark Bramble, so I think, hey, let’s give that a try.</Page>
 			<Page>I’ve been cruising around for a while, dodging the odd massive, interdimensional vine bristling with thorns, when I run into this huge anglerfish, the biggest I’ve ever seen.</Page>
-			<Page>I pull a few stunts, try to shake the thing off — nothing too fancy. I’m going full-speed when the fish clips me, knocks me into a vine, and...</Page>
+			<Page>I pull a few stunts, try to shake the thing off — nothing too fancy. I’m going full-speed when the fish clips me, knocks me into a vine, and……</Page>
 		</Dialogue>
 		<DialogueTarget>Feldspar5</DialogueTarget>
 	</DialogueNode>
@@ -160,10 +160,10 @@
 	<DialogueNode>
 		<Name>Feldspar5c</Name>
 		<Dialogue>
-			<Page>Haha, you flatter me!<![CDATA[<Pause>]]> ...I <![CDATA[<i>like</i>]]> it!</Page>
+			<Page>Haha, you flatter me!<![CDATA[<Pause>]]> ……I <![CDATA[<i>like</i>]]> it!</Page>
 			<Page>_I came to Dark Bramble for the excitement. I’d just finished exploring the core of Giant’s Deep and needed a new challenge, and none of us had ever gone farther than Dark Bramble’s walkways, so I thought, hey, let’s give it a try.</Page>
 			<Page>I’ve been cruising around for a while, dodging the odd massive, interdimensional vine bristling with thorns, when I run into this huge anglerfish, the biggest I’ve ever seen.</Page>
-			<Page>I pull a few stunts, try to shake the thing off — nothing too fancy. I’m going full-speed when the fish clips me, knocks me into a vine, and...</Page>
+			<Page>I pull a few stunts, try to shake the thing off — nothing too fancy. I’m going full-speed when the fish clips me, knocks me into a vine, and……</Page>
 		</Dialogue>
 		<DialogueTarget>Feldspar5</DialogueTarget>
 	</DialogueNode>
@@ -218,7 +218,7 @@
 	<DialogueNode>
 		<Name>FeldsparSkip</Name>
 		<Dialogue>
-			<Page>_Oh, uh... okay. No time for grand heroic tales, huh?</Page>
+			<Page>_呃呃...好。没时间讲宏大的英雄故事？</Page>
 		</Dialogue>
 		<SetCondition>TalkedToFeldspar</SetCondition>
 		<DialogueTarget>FeldsparPrimaryMenu</DialogueTarget>
@@ -228,11 +228,11 @@
 	<DialogueNode>
 		<Name>FeldsparPrimaryMenu</Name>
 		<Dialogue>
-			<Page>_So, whaddya want then, hatchling?</Page>
+			<Page>_有什么事吗，年轻人？</Page>
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
-				<Text>_Can you help me figure something out?</Text>
+				<Text>_你能帮我弄清一些事情吗？</Text>
 				<DialogueTarget>FigureSomethingOut_</DialogueTarget>
 			</DialogueOption>
 
@@ -278,7 +278,7 @@
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
-				<Text>_Can you help me figure something out?</Text>
+				<Text>_你能帮我弄清一些事情吗？</Text>
 				<DialogueTarget>FigureSomethingOut_</DialogueTarget>
 			</DialogueOption>
 
@@ -317,7 +317,7 @@
 		<Name>FeldsparFish</Name>
 		<Dialogue>
 			<Page>Oh, the skeleton? It was like this when I got here.</Page>
-			<Page>As near as I can tell, this anglerfish must have been chewing on the vine and eaten a seed, and then the seed grew and grew in the poor fish’s stomach until... this happened.</Page>
+			<Page>As near as I can tell, this anglerfish must have been chewing on the vine and eaten a seed, and then the seed grew and grew in the poor fish’s stomach until…… this happened.</Page>
 			<Page>Gross, huh?</Page>
 			<Page>This skeleton was a good find. Keeps the fish away. See, they’re territorial, so they mostly avoid each other. That’s why I set up camp here.</Page>
 		</Dialogue>
@@ -328,10 +328,10 @@
 		<Dialogue>
 			<Page>Giant’s Deep’s core, huh? Ahhh, that was a wild one.</Page>
 			<Page>But since you’re asking, I gotta assume you haven’t made it down there yourself yet, right? If I tell you how, it kinda feels like cheating.</Page>
-			<Page>Hm...</Page>
-			<Page>...On a <![CDATA[<i>completely unrelated</i>]]> note, that sure was a big, hollow vine my ship crashed into.<![CDATA[<Pause=3>]]> Yep.</Page>
-			<Page>_If I were you, I’d go take a walk and see where it ends. But, stop before the uh...</Page>
-			<Page>_...Well, you'll know when to stop.</Page>
+			<Page>Hm……</Page>
+			<Page>……On a <![CDATA[<i>completely unrelated</i>]]> note, that sure was a big, hollow vine my ship crashed into.<![CDATA[<Pause=3>]]> Yep.</Page>
+			<Page>_If I were you, I’d go take a walk and see where it ends. But, stop before the uh……</Page>
+			<Page>_……Well, you'll know when to stop.</Page>
 			<Page>You’ll want to go to the tail end of this anglerfish skeleton here and look for a flickering light in the fog — that’ll be my old ship. Path starts there.</Page>
 		</Dialogue>
 		<RevealFacts><FactID>DB_FROZEN_JELLYFISH_R1</FactID></RevealFacts>
@@ -347,8 +347,8 @@
 	<DialogueNode>
 		<Name>FeldsparRescue</Name>
 		<Dialogue>
-			<Page>Well... yeah, sure, whenever you have the time.</Page>
-			<Page>Frankly, I kinda like it out here. Quiet, peaceful...ish.</Page>
+			<Page>Well…… yeah, sure, whenever you have the time.</Page>
+			<Page>Frankly, I kinda like it out here. Quiet, peaceful……ish.</Page>
 			<Page>You’re a little young to understand, but it’s a lot of pressure, being the best that ever was. Been nice to have a break.</Page>
 		</Dialogue>
 		<RevealFacts><FactID>DB_FELDSPAR_X3</FactID></RevealFacts>
@@ -360,7 +360,7 @@
 			<Page>That’s the spirit!</Page>
 			<Page>Anywhere’s good, but you should know that space is weird here. Intensely.</Page>
 			<Page>Ever tried throwing your scout into one of these weird seeds? See there, with the little opening? It’s just big enough to launch one through.</Page>
-			<Page>_Your scout tracker will tell you the scout is in two places at once, but I don’t think that’s... wrong, exactly, because space doesn’t work right in here. That seed looks small, see? But inside... Well...</Page>
+			<Page>_Your scout tracker will tell you the scout is in two places at once, but I don’t think that’s…… wrong, exactly, because space doesn’t work right in here. That seed looks small, see? But inside…… Well……</Page>
 			<Page>_I’ve had a lot of time to think about this, and my theory is that these seeds really hate the fabric of spacetime.</Page>
 			<Page>_Good luck exploring Dark Bramble!</Page>
 		</Dialogue>
@@ -387,7 +387,7 @@
 		<DialogueOptionsList>
 			<DialogueOption>
 				<RequiredLogCondition>DB_STUDY_TOWER_TOP_X1</RequiredLogCondition>
-				<Text>_I found a way to the top of the Study Tower, and...</Text>
+				<Text>_I found a way to the top of the Study Tower, and……</Text>
 				<DialogueTarget>FoundSomethingNew1_</DialogueTarget>
 			</DialogueOption>
 
@@ -452,7 +452,7 @@
 		<Name>FoundSomething3</Name>
 		<Dialogue>
 			<Page>So that’s where the blasted things come from, is it? Stars above, if I still had a working ship, I’d be sorely tempted to go show ’em what’s what!</Page>
-			<Page><![CDATA[<color=grey>Sigh...</color>]]></Page>
+			<Page><![CDATA[<color=grey>Sigh……</color>]]></Page>
 			<Page>Probably best to leave ’em alone, though, really. More trouble than it’s worth to mess with anglerfish.</Page>
 		</Dialogue>
 	</DialogueNode>
@@ -460,7 +460,7 @@
 	<DialogueNode>
 		<Name>FoundSomething4</Name>
 		<Dialogue>
-			<Page>...That’s bad business, hatchling.</Page>
+			<Page>……That’s bad business, hatchling.</Page>
 			<Page>As Chert will tell you if you so much as glance in Dark Bramble’s direction, there used to be a fifth planet where the Bramble is now.</Page>
 			<Page>This infernal plant appeared at the center and kept growing, and growing, and growing, until it shattered the planet and scattered its pieces across space.</Page>
 			<Page>If we don’t get that seed you found sorted real quicklike, I suspect Timber Hearth will be heading toward the same fate. And I tell you what, we Hearthians have overcome far too much to be done in by some worthless <![CDATA[<i>seed</i>]]>.</Page>
@@ -500,12 +500,12 @@
 	<DialogueNode>
 		<Name>FoundSomethingNew1_</Name>
 		<Dialogue>
-			<Page>... Uhuh. ... Oh. ... Huh?</Page>
+			<Page>…… Uhuh. …… Oh. …… Huh?</Page>
 			<Page>Wait wait wait. Giant's Deep tore it off the surface, and you rode the tower on over?!</Page>
 			<Page>Damn. Are you trying to out-Feldspar me? Well done, hatchling, proud of you.</Page>
-			<Page>(Hmm... now what could I do to top that maneuver?)</Page>
+			<Page>(Hmm…… now what could I do to top that maneuver?)</Page>
 			<Page>(Oh, I know! I could land on that Sun Station thing!)</Page>
-			<Page>(...)</Page>
+			<Page>(……)</Page>
 			<Page>(Nah, that would be dumb.)</Page>
 		</Dialogue>
 	</DialogueNode>
@@ -517,38 +517,38 @@
 	<DialogueNode>
 		<Name>FigureSomethingOut_</Name>
 		<Dialogue>
-			<Page>Well, I’ll probably answer as cryptically as usual, but sure, hatchling, what is it?</Page>
+			<Page>当然可以，但可以肯定的是我不会直接告诉你答案。所以，年轻人，你有什么问题？</Page>
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
 				<RequiredLogCondition>DB_NORTHERN_OBSERVATORY_R1</RequiredLogCondition>
-				<Text>The Northern Observatory has two security measures and I can’t get in!</Text>
+				<Text>北部天文台有两个安全措施导致我不能进入，你有什么办法吗？</Text>
 				<DialogueTarget>FigureSomethingOut0_</DialogueTarget>
 			</DialogueOption>
 
 			<DialogueOption>
 				<RequiredLogCondition>DB_BRAMBLE_VILLAGE_X4</RequiredLogCondition>
-				<Text>There’s a painting in the Village that I think is hiding a room behind it.</Text>
+				<Text>荆棘小屋的一个屋子的墙壁上挂着一副画，我猜画的后面有密室。你知道些什么吗？</Text>
 				<DialogueTarget>FigureSomethingOut4_</DialogueTarget>
 			</DialogueOption>
 
 			<DialogueOption>
 				<RequiredLogCondition>DB_STUDY_TOWER_X1</RequiredLogCondition>
-				<Text>How might I get to the top of the Study Tower?</Text>
+				<Text>我该如何进入研究塔塔顶？</Text>
 				<DialogueTarget>FigureSomethingOut1_</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
 				<RequiredLogCondition>DB_PROJECTION_POOL_HOUSE_R1</RequiredLogCondition>
-				<Text>How might I find the Projection Pool House?</Text>
+				<Text>我该如何找到投影池室？</Text>
 				<DialogueTarget>FigureSomethingOut2_</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
 				<RequiredLogCondition>DB_SIMULATION_HOUSE_X1</RequiredLogCondition>
-				<Text>How might I open the door at the end of the secret path behind the jellyfish?</Text>
+				<Text>我该如何打开水母后面隐藏道路尽头的门？</Text>
 				<DialogueTarget>FigureSomethingOut3_</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<Text>Actually, I’ll figure it out on my own.</Text>
+				<Text>其实，我会自己想办法的。</Text>
 				<DialogueTarget>FigureSomethingOutCancel_</DialogueTarget>
 			</DialogueOption>
 
@@ -558,14 +558,14 @@
 	<DialogueNode>
 		<Name>FigureSomethingOutCancel_</Name>
 		<Dialogue>
-			<Page>Alright. It’s always more fun that way, anyway, so good call.</Page>
+			<Page>这是最正确的选择！并且更有挑战性，不是吗？</Page>
 		</Dialogue>
 	</DialogueNode>
 
 	<DialogueNode>
 		<Name>FigureSomethingOut0_</Name>
 		<Dialogue>
-			<Page>Hmm... two security measures, eh?</Page>
+			<Page>嗯……两个安全措施？呃……</Page>
 		</Dialogue>
 
 		<DialogueTarget>FigureSomethingOutResponseA_</DialogueTarget>
@@ -574,15 +574,15 @@
 	<DialogueNode>
 		<Name>FigureSomethingOutResponseA_</Name>
 		<Dialogue>
-			<Page>Well, once you know what they are... then uh... then you can get in.</Page>
+			<Page>如果你知道两个安全措施是什么，那么你就可以进去了。</Page>
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
-				<Text>...Right.</Text>
+				<Text>……好吧。</Text>
 				<DialogueTarget>FigureSomethingOutResponseA1_</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<Text>And... how do I find out what they are?</Text>
+				<Text>我该如何知道两个安全措施是什么？</Text>
 				<DialogueTarget>FigureSomethingOutResponseA2_</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
@@ -591,14 +591,14 @@
 	<DialogueNode>
 		<Name>FigureSomethingOutResponseA1_</Name>
 		<Dialogue>
-			<Page>Cool. Glad I could be of help.</Page>
+			<Page>很高兴我能给你提供帮助。</Page>
 		</Dialogue>
 	</DialogueNode>
 	<DialogueNode>
 		<Name>FigureSomethingOutResponseA2_</Name>
 		<Dialogue>
-			<Page>Well, I don’t know. Explore! Look around! Ask someone! ...else!</Page>
-			<Page>Try to get somewhere hard to reach. There’s usually good stuff in hard to reach places.</Page>
+			<Page>呃……我也不知道。你应该去探索！发现！或者……去问某人！</Page>
+			<Page>或许你可以去一些难以进入的地方。那种地方往往会有意想不到的收获。</Page>
 		</Dialogue>
 	</DialogueNode>
 
@@ -607,8 +607,8 @@
 	<DialogueNode>
 		<Name>FigureSomethingOut1_</Name>
 		<Dialogue>
-			<Page>That’s the stupid-looking tall structure, isn’t it?</Page>
-			<Page>Ah yes, the stairs have collapsed, right? Well, then you’ll need to find something else to get you up through the staircase, won’t you?</Page>
+			<Page>你说的是那个看起来愚蠢又高大的建筑吗？</Page>
+			<Page>那儿的楼梯塌了是吧？那你得去找别的东西让你从楼梯上去，不是吗？</Page>
 		</Dialogue>
 
 		<DialogueTarget>FigureSomethingOutResponseB_</DialogueTarget>
@@ -617,10 +617,10 @@
 	<DialogueNode>
 		<Name>FigureSomethingOut2_</Name>
 		<Dialogue>
-			<Page>The what?</Page>
-			<Page>Oh, it fell in here, did it? Well then you’re not going to find it by randomly wandering around this place...</Page>
-			<Page>So, do what you did to find me! ...Though, I doubt it’s sending out a signal like I am, so... that might be a problem.</Page>
-			<Page>Hey, you’re smart. You’ll figure something out.</Page>
+			<Page>什么？</Page>
+			<Page>哦，投影池的道路被损坏了？或许你可以模拟一下物体的掉落，猜猜它会掉落在哪里。</Page>
+			<Page>根据你的猜想去寻找！想想你当初是如何寻找到我的，像找我一样去寻找它！</Page>
+			<Page>你是个聪明的鱼，我相信你能找到办法！</Page>
 		</Dialogue>
 
 		<DialogueTarget>FigureSomethingOutResponseB_</DialogueTarget>
@@ -629,8 +629,8 @@
 	<DialogueNode>
 		<Name>FigureSomethingOut3_</Name>
 		<Dialogue>
-			<Page>Ha, you found that too? Well, if you payed attention, you might have noticed that the door is actually on Dark Bramble’s surface.</Page>
-			<Page>So, maybe the solution... lies on the surface.</Page>
+			<Page>这个你也发现了？好吧，如果你有认真探索的话，你可能已经注意到入口其实是在黑棘星表面上。</Page>
+			<Page>所以，也许解决方案就在地表上？</Page>
 		</Dialogue>
 
 		<DialogueTarget>FigureSomethingOutResponseB_</DialogueTarget>
@@ -643,11 +643,11 @@
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
-				<Text>Thanks, Feldspar.</Text>
+				<Text>谢谢你，费尔德斯巴。</Text>
 				<DialogueTarget>FigureSomethingOutResponseB1_</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<Text>That’s not very helpful.</Text>
+				<Text>这不是很有帮助。</Text>
 				<DialogueTarget>FigureSomethingOutResponseB2_</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
@@ -656,13 +656,13 @@
 	<DialogueNode>
 		<Name>FigureSomethingOutResponseB1_</Name>
 		<Dialogue>
-			<Page>You’re welcome, hatchling.</Page>
+			<Page>不客气，年轻人。</Page>
 		</Dialogue>
 	</DialogueNode>
 	<DialogueNode>
 		<Name>FigureSomethingOutResponseB2_</Name>
 		<Dialogue>
-			<Page>It is, you just don’t know it yet.</Page>
+			<Page>抱歉，这是我所知道的一切。</Page>
 		</Dialogue>
 	</DialogueNode>
 
@@ -670,7 +670,7 @@
 	<DialogueNode>
 		<Name>FigureSomethingOut4_</Name>
 		<Dialogue>
-			<Page>Secret room behind a painting? Hmm. Let me think...</Page>
+			<Page>一幅画后面的密室？让我想想……</Page>
 			<Page>Uhhhmmm.</Page>
 			<Page>Uuuuuuuuuuuuuuuuuhhhhhhhhhhhhhhhhhhhh.</Page>
 		</Dialogue>
@@ -685,11 +685,11 @@
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
-				<Text>...Nevermind, I’ll... figure it out myself.</Text>
+				<Text>……没关系，我会……自己想办法。</Text>
 				<DialogueTarget>FigureSomethingOutResponseC1_</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<Text>...Yes?</Text>
+				<Text>……什么?</Text>
 				<DialogueTarget>FigureSomethingOutResponseC2_</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
@@ -698,8 +698,8 @@
 	<DialogueNode>
 		<Name>FigureSomethingOutResponseC1_</Name>
 		<Dialogue>
-			<Page>Ah. Yes. Use that brain of yours.</Page>
-			<Page>Well, if you need help with anything else, I'll be sitting right here.</Page>
+			<Page>当然，运用你聪明的大脑。</Page>
+			<Page>我会一直呆在这里，有什么需要尽管来找我。</Page>
 		</Dialogue>
 	</DialogueNode>
 
@@ -709,7 +709,7 @@
 			<Page>Uhhhhhhhhhh.</Page>
 			<Page>HHHHHHHHMMMMMMMMMMMMMMMMMMMM?????</Page>
 			<Page>MMMMMMMMMMMMMMMMM!!!!!!!!!!!!!!!!!!!!</Page>
-			<Page>...Nah. I got nothing.</Page>
+			<Page>……呃，其实我不知道。</Page>
 		</Dialogue>
 		<DialogueTarget>FigureSomethingOutResponseD_</DialogueTarget>
 	</DialogueNode>
@@ -717,15 +717,15 @@
 	<DialogueNode>
 		<Name>FigureSomethingOutResponseD_</Name>
 		<Dialogue>
-			<Page>Someone turned off the ideas lightbulb above my head, I guess.</Page>
+			<Page>我猜有人关掉了我头顶的灯泡。</Page>
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
-				<Text>...What does that even mean?</Text>
+				<Text>……什么意思？</Text>
 				<DialogueTarget>FigureSomethingOutResponseD1_</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<Text>Well, thanks anyway.</Text>
+				<Text>好吧，无论如何，谢谢你。</Text>
 				<DialogueTarget>FigureSomethingOutResponseD2_</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
@@ -734,14 +734,14 @@
 	<DialogueNode>
 		<Name>FigureSomethingOutResponseD1_</Name>
 		<Dialogue>
-			<Page>You tell me, hatchling. You tell me.</Page>
+			<Page>你该去寻找解决办法，然后告诉我。</Page>
 		</Dialogue>
 	</DialogueNode>
 
 	<DialogueNode>
 		<Name>FigureSomethingOutResponseD2_</Name>
 		<Dialogue>
-			<Page>Yeah, catch ya later, hatchling. Sorry I couldn’t be of more help.</Page>
+			<Page>回头见，年轻人。很抱歉我不能提供更多的帮助。</Page>
 		</Dialogue>
 	</DialogueNode>
 

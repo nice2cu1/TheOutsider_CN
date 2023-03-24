@@ -20,7 +20,7 @@
 	<TextBlock>
 		<ID>4</ID>
 		<ParentID>3</ParentID>
-		<Text>曼陀罗：任务完成。但是，哇，我也差点死了！应该更小心一点...</Text>
+		<Text>曼陀罗：任务完成。但是，哇，我也差点死了！应该更小心一点……</Text>
 	</TextBlock>
 
 	<ShipLogConditions>

@@ -5,7 +5,7 @@
 <NomaiObject>
 	<TextBlock>
 		<ID>1</ID>
-		<Text>曼陀罗： Lami 又跑到我的<![CDATA[<color=orange>天文台</color>]]> 里了！</Text>
+		<Text>曼陀罗：拉米又跑到我的<![CDATA[<color=orange>天文台</color>]]>里了！</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
@@ -15,7 +15,7 @@
 	<TextBlock>
 		<ID>3</ID>
 		<ParentID>2</ParentID>
-		<Text>曼陀罗：呵，现在他们进来的唯一方法就是从轨道上太空行走过来！这局我赢了， Lami ！</Text>
+		<Text>曼陀罗：呵，现在他们进来的唯一方法就是从轨道上太空行走过来！这局我赢了，拉米！</Text>
 	</TextBlock>
 	
 	<ShipLogConditions>

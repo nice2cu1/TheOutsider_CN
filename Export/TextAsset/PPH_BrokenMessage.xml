@@ -1,5 +1,5 @@
 <!--
-9 - 1 - 2 - ... - 8
+9 - 1 - 2 - …… - 8
 -->
 
 <NomaiObject>
@@ -17,26 +17,26 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<LocationB/>
-		<Text>亚罗： 哦... #####。假设：我们太阳站的失败#####你在这嘲笑我。</Text>
+		<Text>亚罗： 哦…… #####。如果你是因为#####的失败来嘲笑我的话，那么请停止这次通话。</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<LocationB/>
-		<Text><![CDATA[<color=brown>斯拜尔</color>]]>: 呃...假设：#####对你们都好，如果你们两个都不再给对方打电话的话。</Text>
+		<Text><![CDATA[<color=brown>斯拜尔</color>]]>: 呃……如果你们不再互相#####，对你们双方都有好处。</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>4</ID>
 		<ParentID>3</ParentID>
-		<Text>曼陀罗：#####... 亚罗, 你还好吗？ 亚罗？ #####等等！</Text>
+		<Text>曼陀罗：#####…… 亚罗, 你还好吗？ 亚罗？ #####等等！</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<LocationB/>
-		<Text><![CDATA[<color=brown>斯拜尔</color>]]>: 哦，回头见，亚罗！#####着急，我们会解决的！我相信我们！...所以，曼陀罗，你打电话#####什么意图？</Text>
+		<Text><![CDATA[<color=brown>斯拜尔</color>]]>: 回头见，亚罗！别担心，#####想到办法的！我相信我们！ 所以， 曼陀罗, 你找我们#####？</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>6</ID>
@@ -47,13 +47,13 @@
 		<ID>7</ID>
 		<ParentID>6</ParentID>
 		<LocationB/>
-		<Text><![CDATA[<color=brown>斯拜尔</color>]]>: 哦，你也观测到#####？你和我都有！事实上我们已经##### #####检查#####。#####谢谢你，曼陀罗。</Text>
+		<Text><![CDATA[<color=brown>斯拜尔</color>]]>: 你也观察到了彗星？实际上，我们#####探查#####。但无论如何#####，曼陀罗。</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>8</ID>
 		<ParentID>7</ParentID>
 		<LocationB/>
-		<Text><![CDATA[<color=brown>斯拜尔</color>]]>: #####会追上亚罗，看看他有没有事。#####！别像新来的一样，就现在！</Text>
+		<Text><![CDATA[<color=brown>斯拜尔</color>]]>: 好了，我得去#####亚罗#####。你得注意一下#####！不要成为#####！</Text>
 	</TextBlock>
 
 	<ShipLogConditions>

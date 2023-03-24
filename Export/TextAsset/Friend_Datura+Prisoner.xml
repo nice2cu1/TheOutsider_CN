@@ -2,7 +2,7 @@
 1 - 2 - 3 - 4
 	|
 	5
-unused: ...My own curiosity for the Eye has been burnt out.
+unused: ……My own curiosity for the Eye has been burnt out.
 朋友：Every decision is made in darkness. Only by making a choice can we learn whether it was right or not.
 -->
 
@@ -21,18 +21,18 @@ unused: ...My own curiosity for the Eye has been burnt out.
 	<TextBlock>
 		<ID>3</ID>
 		<ParentID>2</ParentID>
-		<Text>朋友：我们的幽禁者以毫不动摇的自信相信眼是纯粹的善。看到其他人将它藏起来，他认为他们懦弱、邪恶，并且...愚蠢。</Text>
+		<Text>朋友：我们的幽禁者以毫不动摇的自信相信眼是纯粹的善。看到其他人将它藏起来，他认为他们懦弱、邪恶，并且……愚蠢。</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>4</ID>
 		<ParentID>3</ParentID>
-		<Text>朋友：他和我告诉他们我们并不害怕眼...但是我看说别人胆小容易，说他们不能接受现实也容易，尽管你自己也还一无所知。</Text>
+		<Text>朋友：他和我告诉他们我们并不害怕眼……但是我看说别人胆小容易，说他们不能接受现实也容易，尽管你自己也还一无所知。</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>5</ID>
 		<ParentID>2</ParentID>
-		<Text>朋友：曼陀罗不太关心眼的事。与他的族人分隔一段时间助长了他对他们的愤怒——他跟一个挪麦人大吵了一架...亚罗，我记得是。</Text>
+		<Text>朋友：曼陀罗不太关心眼的事。与他的族人分隔一段时间助长了他对他们的愤怒——他跟一个挪麦人大吵了一架……亚罗，我记得是。</Text>
 	</TextBlock> 
 
 </NomaiObject>

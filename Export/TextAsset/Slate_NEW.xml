@@ -38,7 +38,7 @@
 		<DialogueOptionsList>
 			<DialogueOption>
 				<RequiredCondition>LOOP_COUNT_GOE_2</RequiredCondition>
-				<Text>Did... did I just... die?</Text>
+				<Text>Did…… did I just…… die?</Text>
 				<DialogueTarget>ScientistAnswer11</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
@@ -83,7 +83,7 @@
 			<Page>
 				Are you kidding? Of course I’m ready - it’s finally time to test the new landing hydraulics with a pilot instead of the autoflight system!
 			</Page>
-			<Page>...Speaking of pilots, make sure you don’t crash the ship the first time you put it down, you hear?
+			<Page>……Speaking of pilots, make sure you don’t crash the ship the first time you put it down, you hear?
 			</Page>
 		</Dialogue>
 		<DialogueTarget>ScientistAnswer15</DialogueTarget>
@@ -183,7 +183,7 @@
 				<DialogueTarget>ScientistAnswer221</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<Text>Is that... safe?</Text>
+				<Text>Is that…… safe?</Text>
 				<DialogueTarget>ScientistAnswer222</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
@@ -238,7 +238,7 @@
 				<DialogueTarget>ScientistAnswer32</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<Text>Wait, did I just <![CDATA[<i>]]>die<![CDATA[</i>]]>, or...?</Text>
+				<Text>Wait, did I just <![CDATA[<i>]]>die<![CDATA[</i>]]>, or……?</Text>
 				<DialogueTarget>ScientistAnswer33</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
@@ -261,7 +261,7 @@
 	<DialogueNode>	
 		<Name>ScientistAnswer33</Name>
 		<Dialogue>
-			<Page>Uh, <![CDATA[<i>]]>no<![CDATA[</i>]]>...? You have a bad dream or something?</Page>
+			<Page>Uh, <![CDATA[<i>]]>no<![CDATA[</i>]]>……? You have a bad dream or something?</Page>
 			<Page>I won’t ask how you got the codes, so hurry up and launch before Hornfels decides to ground you for medical reasons.  I want to see whether the new cockpit stays attached during liftoff.</Page>
 		</Dialogue>
 	</DialogueNode>
@@ -273,7 +273,7 @@
 			<Page>
 				Looks like you’re ready for takeoff! The excitement of a launch is fun and all, but I can’t wait to get back to working on the new ship.<![CDATA[\\n]]>We’re working on fixing the autopilot’s avoidance system for this one!
 			</Page>
-			<Page>...Uh, sorry.</Page>
+			<Page>……Uh, sorry.</Page>
 		</Dialogue>	
 	</DialogueNode>
 
@@ -334,7 +334,7 @@
 		<Dialogue>
 			<Page>嗯</Page>
 			<Page>你知道博物馆里的小鮟鱇鱼吗？它被我们的一艘船的起落架卡住了，当时它飞得很近，想看清楚结构，记得吗？</Page>
-			<Page>...我认为你需要从发射前的露营中醒来一点。做几个跳跃，也许。</Page>
+			<Page>……我认为你需要从发射前的露营中醒来一点。做几个跳跃，也许。</Page>
 		</Dialogue>
 	</DialogueNode>	
 
@@ -479,7 +479,7 @@
 	<DialogueNode>
 		<Name>Slate_ShipLog_2a</Name>
 		<Dialogue>
-			<Page>...Whoa, say that again! Please? That sounds so good when it’s not sarcastic.</Page>
+			<Page>……Whoa, say that again! Please? That sounds so good when it’s not sarcastic.</Page>
 		</Dialogue>
 		<DialogueTarget>Slate_ShipLog_3</DialogueTarget>
 	</DialogueNode>

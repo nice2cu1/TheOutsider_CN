@@ -11,7 +11,7 @@
 	<TextBlock>
 		<ID>2</ID>
 		<ParentID>1</ParentID>
-		<Text>朋友：但是，无论如何，我知道他已经离开我们了...</Text>
+		<Text>朋友：但是，无论如何，我知道他已经离开我们了……</Text>
 	</TextBlock>
 
 </NomaiObject>

@@ -7,12 +7,12 @@
 <NomaiObject>
 	<TextBlock>
 		<ID>1</ID>
-		<Text>曼陀罗：这是一项有潜在困扰的发现...</Text>
+		<Text>曼陀罗：这是一项有潜在困扰的发现……</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
 		<ParentID>1</ParentID>
-		<Text>曼陀罗：我得看看我能不能在我的<![CDATA[<color=orange>天文台</color>]]>确认一下。如果这是我想的那样...</Text>
+		<Text>曼陀罗：我得看看我能不能在我的<![CDATA[<color=orange>天文台</color>]]>确认一下。如果是那样的话……</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>
@@ -22,7 +22,7 @@
 	<TextBlock>
 		<ID>4</ID>
 		<ParentID>2</ParentID>
-		<Text>曼陀罗：...我应该联系一下女儿...</Text>
+		<Text>曼陀罗：我应该联系一下女儿。</Text>
 	</TextBlock>
 	
 	<ShipLogConditions>

@@ -6,7 +6,7 @@ unused: just because some big Eye thing is like ’hey, it’s big bang time.’
 <NomaiObject>
 	<TextBlock>
 		<ID>1</ID>
-		<Text>曼陀罗：Friend 和我一直在讨论眼，试图弄清楚它</Text>
+		<Text>曼陀罗：“朋友”和我一直在讨论眼，试图弄清它的目的。</Text>
 	</TextBlock>
 
 	<TextBlock>
@@ -28,7 +28,7 @@ unused: just because some big Eye thing is like ’hey, it’s big bang time.’
 	<TextBlock>
 		<ID>5</ID>
 		<ParentID>4</ParentID>
-		<Text>朋友：但...这是不是意味着屏蔽眼信号不是错误的？</Text>
+		<Text>朋友：但……这是不是意味着屏蔽眼信号不是错误的？</Text>
 	</TextBlock>
 
 	<TextBlock>

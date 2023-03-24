@@ -10,28 +10,28 @@
 	<TextBlock>
 		<ID>2</ID>
 		<ParentID>1</ParentID>
-		<Text>曼陀罗：更新：我找到了...3号逃生舱。我跟着他们留下的信标到了一颗种子...周围都是挪麦人，他们全都已经...与我们永别了。</Text>
+		<Text>曼陀罗：更新：我找到了……3号逃生舱。我跟着他们留下的信标到了一颗种子……周围都是挪麦人，他们全都已经……与我们永别了。</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>
 		<ParentID>2</ParentID>
-		<Text>曼陀罗：艾斯科尔（我们的领袖）也在他们之中。我以为他见到我会很生气，但是...</Text>
+		<Text>曼陀罗：艾斯科尔（我们的领袖）也在他们之中。我以为他见到我会很生气，但是……</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>4</ID>
 		<ParentID>3</ParentID>
-		<Text>曼陀罗：我想知道...他的感受。被死去的船员环绕，得知自己草率地向眼跃迁搭上了整个家族。</Text>
+		<Text>曼陀罗：我想知道……他的感受。被死去的船员环绕，得知自己草率地向眼跃迁搭上了整个家族。</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>5</ID>
 		<ParentID>4</ParentID>
-		<Text>曼陀罗：他也无能为力，只有等待...然后死去。.</Text>
+		<Text>曼陀罗：他也无能为力，只有等待……然后死去。.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>6</ID>
 		<ParentID>5</ParentID>
-		<Text>曼陀罗：我...我为他感到难过。</Text>
+		<Text>曼陀罗：我……我为他感到难过。</Text>
 	</TextBlock>
 	
 	<ShipLogConditions>

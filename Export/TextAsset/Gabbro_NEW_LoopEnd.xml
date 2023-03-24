@@ -26,7 +26,7 @@
 		<Name>GabbroMain_Secondary</Name>
 		<EntryCondition>SaidHiToGabbro</EntryCondition>
 		<Dialogue>
-			<Page>Hello again. ...Again.</Page>
+			<Page>Hello again. ……Again.</Page>
 		</Dialogue>
 		<DialogueTarget>GabbroMenu</DialogueTarget>
 	</DialogueNode>
@@ -93,7 +93,7 @@
 	<DialogueNode>
 		<Name>HowDoYouStayCalm</Name>
 		<Dialogue>
-			<Page>_The sun is exploding right now, so I could ask the same to you... but seriously, I meditate.</Page>
+			<Page>_The sun is exploding right now, so I could ask the same to you…… but seriously, I meditate.</Page>
 		</Dialogue>
 		<DialogueTarget>MeditateMenu</DialogueTarget>
 	</DialogueNode>
@@ -101,7 +101,7 @@
 	<DialogueNode>
 		<Name>MeditateMenu</Name>
 		<Dialogue>
-			<Page>_Want me to teach you? It'll be the next loop before you know it. ...Either way.</Page>
+			<Page>_Want me to teach you? It'll be the next loop before you know it. ……Either way.</Page>
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
@@ -118,7 +118,7 @@
 	<DialogueNode>
 		<Name>YesMeditate</Name>
 		<Dialogue>
-			<Page>Ok, close your eyes...</Page>
+			<Page>Ok, close your eyes……</Page>
 		</Dialogue>
 		<SetCondition>BeginMeditation</SetCondition>
 	</DialogueNode>
@@ -151,7 +151,7 @@
 		<Name>ThisPlanet_merge</Name>
 		<Dialogue>
 			<Page>Haha, I know, right?</Page>
-			<Page>_...Oh, you meant, like, tell you more about it? I gotcha. Well, I'll talk next loop. Sound good?</Page>
+			<Page>_……Oh, you meant, like, tell you more about it? I gotcha. Well, I'll talk next loop. Sound good?</Page>
 		</Dialogue>
 		<DialogueTarget>GabbroMenu</DialogueTarget>
 	</DialogueNode>

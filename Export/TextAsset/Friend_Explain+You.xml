@@ -9,7 +9,7 @@ unused: I do not think we are the same curious beings anymore
 <NomaiObject>
 	<TextBlock>
 		<ID>1</ID>
-		<Text>朋友：你好呀！我的名字是“朋友” 。 ...我理解曼陀罗的语言前，他就是这么叫我的。</Text>
+		<Text>朋友：你好呀！我的名字是“朋友” 。 在我理解曼陀罗的语言前，他就是这么叫我的。</Text>
 	</TextBlock>
 
 	<TextBlock>
@@ -21,18 +21,18 @@ unused: I do not think we are the same curious beings anymore
 	<TextBlock>
 		<ID>3</ID>
 		<ParentID>1</ParentID>
-		<Text>朋友：我们为了寻找眼旅行到这里...但我真希望从来没有发现它。眼只是要将我们付之一炬...</Text>
+		<Text>朋友：我们为了寻找眼旅行到这里……但我真希望从来没有发现它。眼只是要将我们付之一炬……</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>4</ID>
 		<ParentID>1</ParentID>
-		<Text>朋友：这个模拟站现在就是我们的家。我们都是幽灵！我的族人们心甘情愿地腐烂了，但最小的却神秘地同时去世了。</Text>
+		<Text>朋友：这个模拟世界现在就是我们的家。我们都是幽灵！我的族人们心甘情愿地腐烂了。</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>5</ID>
 		<ParentID>4</ParentID>
-		<Text>朋友：真希望我能懂你的语言！发生什么了？挪麦人也发生什么事了吗？</Text>
+		<Text>朋友：真希望我能懂你的语言！外面发生什么了？挪麦人怎么样了？</Text>
 	</TextBlock>
 
 </NomaiObject>

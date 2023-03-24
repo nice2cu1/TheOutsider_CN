@@ -5,19 +5,19 @@
 <NomaiObject>
 	<TextBlock>
 		<ID>1</ID>
-		<Text>朋友：哈喽！你真是个好奇的生物！</Text>
+		<Text>朋友：哈喽！你真是个奇怪的生物！</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>2</ID>
 		<ParentID>1</ParentID>
-		<Text>朋友：很高兴见到你！距离上一次有新人来已经过去很久了。我很高兴你们的翻译器在这里还能用!</Text>
+		<Text>朋友：很高兴见到你！距离上一次有新人来已经过去很久了。我很高兴你的翻译器在这里还能用!</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>3</ID>
 		<ParentID>2</ParentID>
-		<Text>朋友：这个模拟站能够带来外界物品的设定是存在问题的。也许因为我的挪麦文字的原因让模拟程序识别到了这个翻译器？（哈斯天选人，天命之子，你以为，哈哈！！！）</Text>
+		<Text>朋友：这个模拟站能够带来外界物品的设定是存在问题的。也许因为我会挪麦文字的原因让模拟程序识别到了这个翻译器？（哈斯天选人，你以为，哈哈！！！）</Text>
 	</TextBlock>
 
 </NomaiObject>

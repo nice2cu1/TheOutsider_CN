@@ -9,7 +9,7 @@
 <NomaiObject>
 	<TextBlock>
 		<ID>1</ID>
-		<Text>曼陀罗：着陆！黑棘星，有点小酷。有点...诡异。</Text>
+		<Text>曼陀罗：着陆！黑棘星，有点小酷。有点……诡异。</Text>
 	</TextBlock>
 	
 	<TextBlock>
@@ -26,13 +26,13 @@
 	<TextBlock>
 		<ID>4</ID>
 		<ParentID>1</ParentID>
-		<Text>曼陀罗：嗯，这里没有能吃的东西。我带了一些补给，冰可以用来做水，但这些荆棘（我想）只能作为建筑材料...</Text>
+		<Text>曼陀罗：嗯，这里没有能吃的东西。我带了一些补给，冰可以用来做水，但这些荆棘（我想）只能作为建筑材料……</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>5</ID>
 		<ParentID>4</ParentID>
-		<Text>曼陀罗：嗯... 这个星球上...没有...鮟鱇鱼... 对吧？</Text>
+		<Text>曼陀罗：嗯…… 这个星球上……没有……鮟鱇鱼…… 对吧？</Text>
 	</TextBlock>
 
 	<ShipLogConditions>

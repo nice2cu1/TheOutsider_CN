@@ -13,9 +13,9 @@ if __name__ == '__main__':
             with open("./Export/TextAsset/"+data.name+".xml", "rb") as f:
                 data.script = f.read()
             data.save()
-    with open(os.path.join("./output/darkbundle"), "wb") as f:
+    with open(os.path.join("C:\\Users\\Administrator\\AppData\\Roaming\\OuterWildsModManager\\OWML\\Mods\\StreetlightsBehindtheTreesandnice2cu1.TheOutsider\\darkbundle"), "wb") as f:
         f.write(env.file.save(packer='lz4'))
-    end = time.perf_counter()
+    end = time.perf_counter() 
     print('运行时间为：{}秒'.format(end-start))
 
 

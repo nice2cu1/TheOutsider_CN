@@ -6,49 +6,49 @@ unused: dangerous substance! When it flies passed the sun, it will
 <NomaiObject>
 	<TextBlock>
 		<ID>1</ID>
-		<Text>曼陀罗：Hello? 亚罗! There’s-</Text>
+		<Text>曼陀罗：你好? 亚罗! 有些事你得知道-</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<LocationB/>
-		<Text>亚罗： Oh... hello. Hypothesis: Our failure with the Sun Station brought you here to ridicule me.</Text>
+		<Text>亚罗： 哦…… 你好. 如果你是因为太阳站的失败来嘲笑我的话，那么请停止这次通话。</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<LocationB/>
-		<Text><![CDATA[<color=brown>斯拜尔</color>]]>: Uh... Hypothesis: it would be beneficial to you both if neither of you called each other anymore.</Text>
+		<Text><![CDATA[<color=brown>斯拜尔</color>]]>: 呃…… 如果你们不再互相打电话，对你们双方都有好处。</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>4</ID>
 		<ParentID>3</ParentID>
-		<Text>曼陀罗：I... 亚罗, are you alright? 亚罗? Hey, wait!</Text>
+		<Text>曼陀罗：我…… 亚罗, 你还好吗? 亚罗? 嘿，等等!</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<LocationB/>
-		<Text><![CDATA[<color=brown>斯拜尔</color>]]>: Oh, see you later, 亚罗! Don’t worry, we’ll figure it out! I believe in us! ...So, 曼陀罗, what is the true intent of your call?</Text>
+		<Text><![CDATA[<color=brown>斯拜尔</color>]]>: 回头见， 亚罗！别担心，我们会想到办法的！我相信我们！ 所以， 曼陀罗, 你找我们有什么事？</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>6</ID>
 		<ParentID>5</ParentID>
-		<Text>曼陀罗：Uh, th-there’s a comet coming! And it’s filled with-!</Text>
+		<Text>曼陀罗：呃，有个彗星来到太阳系了！而且它充满了-!</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>7</ID>
 		<ParentID>6</ParentID>
 		<LocationB/>
-		<Text><![CDATA[<color=brown>斯拜尔</color>]]>: Oh, you observed the comet too? You and me both! We’ve actually already sent a shuttle to go check it out. But thanks anyway, 曼陀罗.</Text>
+		<Text><![CDATA[<color=brown>斯拜尔</color>]]>:你也观察到了彗星？实际上，我们已经派出航天飞机去探查了。但无论如何都要谢谢你，曼陀罗。</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>8</ID>
 		<ParentID>7</ParentID>
 		<LocationB/>
-		<Text><![CDATA[<color=brown>斯拜尔</color>]]>: Well, I’m gonna catch up to亚罗to see if he’s alright. See ya around! Don’t be a stranger, now!</Text>
+		<Text><![CDATA[<color=brown>斯拜尔</color>]]>: 好了，我得去看看亚罗的情况。你得注意一下你的关系了！不要成为陌路人！</Text>
 	</TextBlock>
 
 	<ShipLogConditions>

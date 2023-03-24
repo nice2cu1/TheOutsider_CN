@@ -7,7 +7,7 @@
 <NomaiObject>
 	<TextBlock>
 		<ID>1</ID>
-		<Text>曼陀罗：我去告诉其他人我的发现，但是插上投影石却看到了... 亚罗。</Text>
+		<Text>曼陀罗：我去告诉其他人我的发现，但是插上投影石却看到了…… 亚罗。</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
@@ -33,13 +33,13 @@
 	<TextBlock>
 		<ID>6</ID>
 		<ParentID>5</ParentID>
-		<Text>曼陀罗：假设：亚罗没有告诉任何人是我最先发现的！芜湖！哈哈哈。(我希望她...没事。我们通话结束时，她似乎很苦恼。)</Text>
+		<Text>曼陀罗：假设：亚罗没有告诉任何人是我最先发现的！芜湖！哈哈哈。(我希望她……没事。我们通话结束时，她似乎很苦恼。)</Text>
 	</TextBlock>
 	
 	<TextBlock>
 		<ID>7</ID>
 		<ParentID>4</ParentID>
-		<Text>曼陀罗：...亚罗，我保证，总有一天我们会有一场像样的对话。或者至少一场中立的对话。</Text>
+		<Text>曼陀罗：……亚罗，我保证，总有一天我们会有一场像样的对话。或者至少一场中立的对话。</Text>
 	</TextBlock>
 	
 	<ShipLogConditions>
